@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://henriqueassumpcao.github.io/al-folio/sitemap.xml
+Sitemap: https://henriqueassumpcao.github.io/sitemap.xml
