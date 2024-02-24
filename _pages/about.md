@@ -2,25 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Computer Science Department, UFMG</p>
+    <p>Belo Horizonte, Brazil</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Computer Science student at [Universidade Federal de Minas Gerais](https://ufmg.br/)<br>
+Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
+My c.v. can be found [here](../assets/pdf/cv.pdf) (last updated in january 2024)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm coursing my 9th semester (out of 10) in Computer Science. In 2023, I started a minor in pure mathematics, and also started to work as an undergraduate researcher under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/), focusing on algebraic and spectral graph theory. Currently, I'm studying semisimple algebras, self-adjoint matrix algebras, and their applications to combinatorial optimization and graph theory. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+From 2020 to 2022 I worked on multiple projects related to machine learning and data science, mainly focusing on language models and graph neural networks, under the supervision of [Prof. Fabricio Murai](https://murai.dcc.ufmg.br/). During 2021 and 2022, I worked as a research assistant in a project with [Inter Bank](https://inter.co/) on money laundering detection, and by the end of that year I presented our findings at the IEEE BigData 2022 conference, in Osaka, Japan.
+
+Since 2023 I've been deeply interested in learning subjects from pure mathematics, such as Abstract Algebra, Graph Theory, Linear Algebra, Real Analysis, Topology and Functional Analysis. I intend to post things related to such subjects in the [blog](https://henriqueassumpcao.github.io/blog/) section of this website.
+
+### short bio
+* BSc. in Computer Science, Universidade Federal de Minas Gerais (Brazil)
+  + 2020-2024
+* Born in 2001, Belo Horizonte, Brazil.
