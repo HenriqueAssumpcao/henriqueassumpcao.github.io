@@ -173,7 +173,11 @@
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.stackoverflow_id %}
-    {% capture link %}https://stackoverflow.com/users/{{ site.stackoverflow_id }}{% endcapture %}
+    {% capture link %}https://stackexchange.com/users/{{ site.stackoverflow_id }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
+  {% if site.mathoverflow_id %}
+    {% capture link %}https://mathoverflow.net/users/{{ site.mathoverflow_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.kaggle_id %}

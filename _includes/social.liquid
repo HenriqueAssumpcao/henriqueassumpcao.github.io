@@ -74,7 +74,10 @@
   <a href="{{ site.dblp_url }}" title="DBLP"><i class="ai ai-dblp"></i></a>
 {% endif %}
 {% if site.stackoverflow_id %}
-  <a href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}" title="Stackoverflow"><i class="fa-brands fa-stack-overflow"></i></a>
+  <a href="https://stackexchange.com/users/{{ site.stackoverflow_id }}" title="Stackexchange"><i class="fa-brands fa-stack-exchange"></i></a>
+{% endif %}
+{% if site.mathoverflow_id %}
+  <a href="https://mathoverflow.net/users/{{ site.mathoverflow_id }}" title="Mathoverflow"><i class="fa-brands fa-math-overflow"></i></a>
 {% endif %}
 {% if site.kaggle_id %}
   <a href="https://www.kaggle.com/{{ site.kaggle_id }}" title="Kaggle"><i class="fa-brands fa-kaggle"></i></a>

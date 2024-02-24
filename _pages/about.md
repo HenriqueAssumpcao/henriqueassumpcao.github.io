@@ -9,13 +9,14 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Computer Science Department, UFMG</p>
+    <p>DCC, UFMG</p>
     <p>Belo Horizonte, Brazil</p>
 
 news: false # includes a list of news items
 latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+bio: true
 ---
 
 Computer Science student at [Universidade Federal de Minas Gerais](https://ufmg.br/)<br>
@@ -27,8 +28,3 @@ I'm coursing my 9th semester (out of 10) in Computer Science. In 2023, I started
 From 2020 to 2022 I worked on multiple projects related to machine learning and data science, mainly focusing on language models and graph neural networks, under the supervision of [Prof. Fabricio Murai](https://murai.dcc.ufmg.br/). During 2021 and 2022, I worked as a research assistant in a project with [Inter Bank](https://inter.co/) on money laundering detection, and by the end of that year I presented our findings at the IEEE BigData 2022 conference, in Osaka, Japan.
 
 Since 2023 I've been deeply interested in learning subjects from pure mathematics, such as Abstract Algebra, Graph Theory, Linear Algebra, Real Analysis, Topology and Functional Analysis. I intend to post things related to such subjects in the [blog](https://henriqueassumpcao.github.io/blog/) section of this website.
-
-### short bio
-* BSc. in Computer Science, Universidade Federal de Minas Gerais (Brazil)
-  + 2020-2024
-* Born in 2001, Belo Horizonte, Brazil.

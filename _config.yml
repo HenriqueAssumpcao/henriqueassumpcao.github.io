@@ -4,17 +4,16 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Henrique
-middle_name: 
+middle_name: S.
 last_name: Assumpção
 email: henriquesoares@dcc.ufmg.br
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords:  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: leech.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: black-hole.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://henriqueassumpcao.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -39,7 +38,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -89,7 +88,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
+stackoverflow_id: 18509605 # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
 spotify_id: # your spotify id
@@ -103,7 +102,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  the best way to reach me is via the institutional email linked above.
+  the best way to reach me is via the institutional email linked above
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

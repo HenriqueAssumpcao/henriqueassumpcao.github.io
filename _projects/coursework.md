@@ -49,7 +49,7 @@ Courses marked with "(grad)" mean that they are graduate-level courses, whereas 
   + Introduction to quantum mechanics, qubits, quantum states, quantum entanglement, quantum information, quantum circuits, Shor's algorithm, Grover's algorithm, contextuality, applications to graph theory. Students were asked to present a seminar and write a survey related to specific fields within QC.
   + The seminar I presented in this class can be found [here](https://henriqueassumpcao.github.io/projects/seminar_qrng/)
   + Bibliography: Nielsen and Chuang's *Quantum Computation and Quantum Information*
-* Seminars in Mathematical Aspects of Deep Learning (2023/2) (grad)
+* Advanced Seminars in Mathematical Aspects of Deep Learning (2023/2) (grad)
   + This course consists of a series of seminars in mathematical aspects of deep learning. The covered aspects are: introduction to functional analysis, approximation theorems for neural networks, exact learning, vc-dimension, information theory for neural networks, output manifold of a neural network, statistical manifolds and optimization, universal approximation theorem, spectral clustering, dimensionality reduction, graph representation learning.
   + My seminar can be found [here](https://henriqueassumpcao.github.io/projects/seminar_qrng/)
 

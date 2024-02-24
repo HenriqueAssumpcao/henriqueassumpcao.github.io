@@ -4,7 +4,7 @@ title: free modules over principal ideal domains
 date: 2023-11-25
 description: another interesting result from the course on rings and modules
 tags: 
-categories: rings-and-modules
+categories: math rings-and-modules
 giscus_comments: false
 related_posts: false
 related_publications: 

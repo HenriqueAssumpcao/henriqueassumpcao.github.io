@@ -4,7 +4,7 @@ title: when will an endomorphism ring be a field?
 date: 2023-11-22
 description: during the course on rings and modules I was asked to prove this interesting result
 tags: 
-categories: rings-and-modules
+categories: math rings-and-modules
 giscus_comments: false
 related_posts: false
 related_publications: 
