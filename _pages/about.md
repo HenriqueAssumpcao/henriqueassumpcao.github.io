@@ -21,7 +21,7 @@ bio: true
 
 Computer Science student at [Universidade Federal de Minas Gerais](https://ufmg.br/)<br>
 Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
-My c.v. can be found [here](../assets/pdf/cv.pdf) (last updated in january 2024)
+My c.v. can be found [here](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in january 2024)
 
 I'm coursing my 9th semester (out of 10) in Computer Science. In 2023, I started a minor in pure mathematics, and also started to work as an undergraduate researcher under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/), focusing on algebraic and spectral graph theory. Currently, I'm studying semisimple algebras, self-adjoint matrix algebras, and their applications to combinatorial optimization and graph theory. 
 
