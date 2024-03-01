@@ -2,7 +2,7 @@
 layout: distill
 title: when will an endomorphism ring be a field?
 date: 2023-11-22
-description: during the course on rings and modules I was asked to prove this interesting result
+description: an interesting result from the course on rings and modules
 tags: 
 categories: math rings-and-modules
 giscus_comments: false
@@ -10,17 +10,17 @@ related_posts: false
 related_publications: 
 
 toc:
-  - name: "Lemma 1: Isomorphisms between rings of endomorphisms"
-  - name: "Lemma 2: Endomorphisms of commutative rings"
+  - name: "Isomorphisms between rings of endomorphisms"
+  - name: "Endomorphisms of commutative rings"
   - name: "Putting it all together"
   - name: "Comments"
 
 
 ---
-I'm currently taking a course on Rings and Modules at UFMG, and this week I came across an interesting result that I've decided to share here. It is quite simple, however I found it to be interesting nonetheless.
+I'm currently taking a course on Rings and Modules at UFMG, and this week I came across an interesting result that I've decided to share here.
 
 Let $$R$$ be a ring with unity. We wish to show that if $$R$$ is commutative and if $$M$$ is a simple $$R$$-module, then the ring of $$R$$-endomorphisms $$\text{End}_R(M)$$ is a field.
-## Lemma 1: Isomorphisms between rings of endomorphisms
+## Isomorphisms between rings of endomorphisms
 We will first prove an auxiliary result that turns out to be quite useful.
 
 **Lemma 1:** Let $$R$$ be a unitary ring, and let $$M,N$$ be two isomorphic $$R$$-modules. Then $$\text{End}_R(M)$$ and $$\text{End}_R(N)$$ are isomorphic as rings.
@@ -62,7 +62,7 @@ $$\psi(f)(n) = \phi(\phi^{-1}(g(\phi(\phi^{-1}(n))))) = g(n),\forall n \in N$$
 thus $$\psi(f) = g$$, and so $$\psi$$ is surjective.
 
 The previous points show that $$\psi$$ is indeed a ring isomorphism, which concludes the proof.
-## Lemma 2: Endomorphisms of commutative rings
+## Endomorphisms of commutative rings
 We now look at the ring of $$R$$-homomorphisms of a commutative unitary ring $$R$$.
 
 **Lemma 2:** Let $$R$$ be a commutative ring with unity. The following statements hold:
@@ -101,4 +101,4 @@ Since $$M$$ is simple, it follows that it is $$R$$-isomorphic to $$R/I$$, where 
 ## Comments
 The proof of this result is quite simple due to it being mainly a series of straightforward algebraic manipulations. However, I still think that it portrays some interesting techniques.
 
-Lemma 1 essentially provides a way of converting a module homomorphism between two modules to a ring homomorphism between two rings that are closely related to the original modules. This surely has limited applications, however in our case it is precisely what we needed: we start by assuming that $$M$$ is simple, and thus it is isomorphic to $$R/I$$ as a module, however due to the fact that $$I$$ is maximal we also know that $$R/I$$ is a field. We then need a way of connecting this module isomorphism to a ring isomorphism, and this is precisely what Lemma 1 does. Lemma 2 on the other hand is just a bundle of simple observations that follow from basic properties of unitary commutative rings, and so it itself isn't of much interest, however combined with Lemma 1 it yields the desired result. As for the main theorem itself, it yields a pretty powerful result: function composition for endomorphisms of simple modules is commutative, a fact that is not at all true in general for any endomorphism.
+Lemma 1 essentially provides a way of converting a module homomorphism between two modules to a ring homomorphism between two rings that are closely related to the original modules. This surely has limited applications, however in our case it is precisely what we needed: we start by assuming that $$M$$ is simple, and thus it is isomorphic to $$R/I$$ as a module, however due to the fact that $$I$$ is maximal we also know that $$R/I$$ is a field. We then need a way of connecting this module isomorphism to a ring isomorphism, and this is precisely what Lemma 1 does. Lemma 2 on the other hand is just a bundle of simple observations that follow from basic properties of unitary commutative rings, and so it itself isn't of much interest, however combined with Lemma 1 it yields the desired result. As for the main theorem itself, it yields a more powerful version of Schur's Lemma: function composition for simple modules over commutative rings is itself commutative.
