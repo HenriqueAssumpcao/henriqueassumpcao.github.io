@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: matrix decompositions and commuting matrices
+title: the schur basis and some other decompositions
 date: 2024-02-28
-description: a few cool results from linear algebra
+description: a few cool results from linear algebra that I realized I had never proven before
 tags: 
 categories: math linear-algebra
 giscus_comments: false
@@ -10,23 +10,24 @@ related_posts: false
 related_publications: 
 
 toc:
-  - name: "Triangular, Normal and Nilpotent matrices"
+  - name: "Triangular and Normal matrices"
+  - name: "Nilpotent matrices"
   - name: "Invariant subspaces and commuting matrices"
   - name: "Final remarks"
 
 
 ---
-A few months ago I was studying Bhatia's Matrix Analysis book while I stumbled upon a pretty basic result that, for some reason, I've never proven before in any of my linear algebra classes: that every matrix over the complex numbers has an orthogonal basis such that it is in an upper triangular form (called the Schur basis). In this post I'll prove this result, and then use it to prove that an arbitrary family of commuting matrices has a commom Schur basis, and also talk a bit a bout other interesting related results.
+A few months ago I was studying Bhatia's Matrix Analysis book while I stumbled upon a pretty basic result that, for some reason, I had never proven before in any of my linear algebra classes: that every matrix over the complex numbers has an orthogonal basis such that it is in an upper triangular form (called the Schur basis). In this post I'll prove this result, and then use it to prove that an arbitrary family of commuting matrices has a commom Schur basis, and also talk a bit about other interesting related results.
 
-## Triangular, Normal and Nilpotent matrices
+## Triangular and Normal matrices
 
 Let $$V$$ be a $$n$$-dimensional vector space over the complex numbers, and assume we have a matrix $$T$$ in upper-triangular form, where we denote the $$ij$$-th element of $$T$$ by $$T_{ij}$$. The determinant of a triangular matrix is just the product of its diagonal elements, since any permutation other than the identity results in at least one zero appearing in the product of elements given by the determinant formula. Now note that
 
-$$\varphi(T,\lambda) = \det(\lambda I - T)$$
+$$\varphi(T,\lambda) = \det(t - \lambda I)$$
 
-where $$\varphi$$ denotes the characteristic polynomial of $$T$$, and since $$\lambda I - T$$ is also upper triangular, we get that
+where $$\varphi$$ denotes the characteristic polynomial of $$T$$, and since $$T - \lambda I$$ is also upper triangular, we get that
 
-$$\varphi(T,\lambda) = (\lambda - T_{11})\cdot...\cdot(\lambda - T_{nn})$$
+$$\varphi(T,\lambda) = (T_{11} - \lambda)\cdot...\cdot(T_{nn} - \lambda)$$
 
 and hence all of the eigenvalues of $$T$$ are in its diagonal entries.
 
@@ -63,12 +64,58 @@ $$
 
 since the matrices commute, if we look at the result of their diagonal products, it follows that any off-diagonal entry must be zero, and thus $$A$$ and $$A^*$$ must be diagonal matrices, and hence $$A$$ can be orthogonally diagonalized.
 
+## Nilpotent matrices
+
 An endomorphism $$f$$ on $$V$$ is called *nilpotent* if there exists a non-negative integer $$r$$ such that $$f^r = 0$$, i.e., f composed with itself $$r$$ times is equal to the zero map. From this definition it follows that any eigenvalue of $$f$$ must be zero, and since we've observed that any endomorphism on $$V$$ has a Schur basis, it follows that there is a basis in which $$f$$ is strictly upper triangular, i.e., all of its diagonal elements are zero. Conversely, any strictly upper triangular $$n \times n$$ matrix satisfies $$N^n = 0$$, and thus we get that an endomorphism over a finite-dimensional vector space is nilpotent iff there is a basis in which its matrix is strictly upper triangular. From these facts and the Schur decomposition, it follows that for any matrix $$A$$, there is an orthogonal matrix $$Q$$ such that
 
 $$Q^*AQ = D + N$$
 
-where $$D$$ is a diagonal matrix containing the eigenvalues of $$A$$, and $$N$$ is a nilpotent matrix.
+where $$D$$ is a diagonal matrix containing the eigenvalues of $$A$$, and $$N$$ is a nilpotent matrix in strict upper triangular form. This decomposition, however, is not unique, since the Schur basis is also not unique. We can, however, prove the uniqueness of the endomorphisms associated with $$D$$ and $$N$$, that is, we can prove that any operator $$A$$ can be uniquely written as
 
+$$A = D + N$$
+
+where $$D$$ is a *diagonalizable* operator (not necessarily in diagonal form), and $$N$$ is a operator (again not necessarily in upper triangular form). Moreover, we can show that $$D$$ and $$N$$ are polynomials in $$A$$, and hence they commute.
+
+For this, since we are assuming that $$V$$ is a vector space over the complex numbers, we may assume that the minimal polynomial $$m_A$$ of $$A$$ is of the form
+
+$$m_A(t) = (t-\lambda_1)^{r_1}\cdot\ldots\cdot(t-\lambda_k)^{r_k}$$
+
+where each $$\lambda_i$$ is an eigenvalue, and $$\lambda_i \neq \lambda_j$$ if $$i \neq j$$. From the spectral theorem, it follows that we can decompose $$V$$ as 
+
+$$V = W_1 \oplus\ldots\oplus W_k$$
+
+where $$W_i = \ker((T - \lambda_i I)^{r_i})$$ is the *generalized eigenspace* associated with $$\lambda_i$$, and we can consider the projections $$E_i$$ in these spaces such that $$I = E_1 + ... + E_k$$, and $$E_iE_j = \delta_{ij}E_i$$. We can thus define the operator
+
+$$D = \lambda_1 E_1 + ... + \lambda_k E_k$$
+
+and we claim that $$D$$ is diagonalizable. Indeed, this follows by simply observing that for any $$v \in V$$, $$DE_iv = \lambda v$$, hence $$W_i \subset \ker(D - \lambda I)$$, and thus any basis of $$V$$ given by the union of bases for each $$W_i$$ is a basis of eigenvectors of $$D$$. Now consider the operator
+
+$$N = A - D$$
+
+and note that $$N$$ is a polynomial in $$A$$, and so is $$D$$, and thus they commute. Now since $$A = AE_1 + ... + E_k$$, we have that
+
+$$ N = \sum_{i=1}^k (A-\lambda_i I)E_i $$
+
+however, we recall that each $$E_i$$ is a polynomial in $$A$$, and hence commutes with $$A$$, thus we have
+
+$$
+\begin{split}
+N^2 &= \sum_{i,j} (A-\lambda_i I)E_i(A-\lambda_j I)E_j \\
+&= \sum_{i,j} (A-\lambda_i I)(A-\lambda_j I)E_iE_j = \sum_i (A-\lambda_i I)^2E_i
+\end{split}
+$$
+
+and in general we have that $$N^r = \sum_i (A-\lambda_i I)^rE_i$$, then if $$r \geq \max(r_1,...,r_k)$$, by definition of the minimal polynomial, we have that $$N^r = 0$$, thus $$N$$ is nilpotent. This shows that we can decompose any operator as a sum of a diagonalizable operator and a nilpotent operator. One way of thinking about this argument is that we are removing the diagonalizable part of $$A$$ and then showing that this new operator is nilpotent, which makes sense since any non-zero nilpotent operator is not diagonalizable (since the only possible eigenvalue is zero).
+
+Now, we need to check that $$N$$ and $$D$$ are indeed unique (as operators, not as matrices). Assume that $$A = N + D = N' + D'$$, and so
+
+$$D - D' = N' - N$$
+
+Since both $$N'$$ and $$N$$ are nilpotent, we can choose a sufficiently large $$r$$ such that
+
+$$(N' - N)^r = \sum_{i=0}^r (-1)^i {r \choose i}(N')^iN^{r-i} = 0$$
+
+and so $$N' - N$$ is also nilpotent. Note, however, that since both $$D$$ and $$D'$$ are diagonalizable and commute, they are simultaneously diagonalizable, and hence $$D-D'$$ is also a diagonalizable operator, and so we have that a nilpotent operator is equal to a diagonalizable operator, however we know that the Schur basis of a nilpotent operator is a strictly upper triangular matrix, and that the schur basis of a diagonalizable operator is an eigenbasis, hence $$D-D' = N'-N = 0$$, and we conclude that the operators are unique.
 ## Invariant subspaces and commuting matrices
 
 If $$V$$ is a vector space over $$\mathbb{C}$$ of dimension $$n$$, and $$A$$ is a linear operator on $$V$$, we can show that any $$A$$-invariant subspace of $$V$$ contains an eigenvector of $$A$$. Indeed, let $$W = \text{span}_{\mathbb{C}}(v_1,...,v_k)$$ be a $$k$$-dimensional subspace of $$V$$ such that $$AW \subset W$$, let $$B = [v_1 \quad ... \quad v_k]$$ be the $$n \times k$$ matrix containing the basis of $$W$$ in its columns. Since $$W$$ is $$A$$-invariant, it follows that there must exist a $$k \times k$$ matrix $$C$$ such that
@@ -137,9 +184,3 @@ where $$c_{ij},d_{ji}$$ are $$n-1$$ dimensional line vectors (we can compute the
 We've seen that any finite commuting set of matrices has a common Schur basis over the complex numbers, however this same result also implies that this set doesn't need to be finite at all. This follows from the fact that, if $$\{A_i\}_{i \in \mathcal{I}}$$ is an arbitrary family of commuting matrix with entries on $$\mathbb{C}$$, then we can consider the *algebra* generated by such set. Recall that an algebra is just a ring which is also a module over some other ring, and in our case, an algebra is just a vector space that is closed w.r.t. matrix multiplication. Thus, the algebra generated by some set of matrices is nothing more than the set of all finite linear combinations of finite products between such matrices. For example, the algebra generated by some matrix $$A$$ is just the set of all finite linear combinations of powers of $$A$$. We say that an algebra is finite dimensional if it is so as a vector space, and hence the set of all $$n \times n$$ matrices over $$\mathbb{C}$$ is a finite dimensional algebra with dimension $$n^2$$ (just take the matrices $$E_{ij}$$ with only the $$ij$$-th entry non-zero and equal to one). Thus, any subalgebra of the full matrix algebra is also finite dimensional, and so the algebra generated by $$\{A_i\}_{i \in \mathcal{I}}$$ must have a finite basis of matrices, and since the generating set is commutative, the entire algebra also is. Hence, we can find a common Schur basis for the matrices that form a basis of such algebra, and then any matrix in this algebra will also be in an upper triangular form. It also follows as a corollary that any family $$\{A_i\}_{i \in \mathcal{I}}$$ of commuting normal matrices has a common orthogonal eigenbasis, i.e., there exists an orthogonal matrix $$Q$$ such that $$Q^*A_iQ$$ is diagonal for each $$i$$.
 
 I'm currently studying matrix algebras and the Wedderburn-Artin theorems for my undergraduate thesis, so I intend on making more posts on connections between results in linear algebra and the study of matrix algebras and ring theory.
-
-
-
-<!-- Now for proving that there is a common Schur basis, we again use induction on $$n$$. The base case is immediate, and in general we now know that if $$A$$ and $$B$$ commute, there is a common eigenvector $$v_1$$ for both of them, and thus we can decompose
-
-$$ V = \mathbb{C}v_1 \oplus (\mathbb{C}v_1)^\perp$$  -->

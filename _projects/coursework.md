@@ -29,7 +29,7 @@ Courses marked with "(grad)" mean that they are graduate-level courses, whereas 
   + Groups, normal subgroups, quotient group, homomorphisms, Sylow theorems, solvable groups, permutation groups, Cayley's theorem, simple subgroups, fields, field extensions, polynomials, finite fields, introduction to Galois groups, fundamental theorem of Galois theory
   + Bibliography: [Prof. Csaba's Lecture Notes](https://schcs.github.io/WP/index.php/ensino/grupos-e-corpos/), Gallian's *Contemporary Abstract Algebra*, Martins and Tengan's *Álgebra Exemplar*
 * Introduction to Topology (2024/1) 
-  + Metric spaces, open and closed sets, sequences, limits, convergence, series, sequences and series of functions, Arzelá-Ascoli theorem, homotopy, fundamental group
+  + Metric spaces, continuity, open and closed sets, sequences, topological spaces, bases, product and quotient topology, connectedness, compact spaces, spaces of functions
   + Bibliography: Munkre's *Toplogy: A first course*, Bredon's *Topology and Geometry*
 
 ### Courses taken elsewhere
