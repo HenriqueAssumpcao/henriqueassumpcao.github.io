@@ -31,17 +31,17 @@ $$\varphi(T,\lambda) = (T_{11} - \lambda)\cdot...\cdot(T_{nn} - \lambda)$$
 
 and hence all of the eigenvalues of $$T$$ are in its diagonal entries.
 
-We now prove that for any linear function $$f$$ on $$V$$ there exists an orthogonal basis in which the matrix of such function is upper triangular. Note that this is equivalent to saying that there is an orthogonal basis $$\{v_1,...,v_n\}$$ of $$V$$ such that $$f(v_i) \in \text{span}_{\mathbb{C}}(v_1,...,v_i)$$, and we can prove this via a simple induction on the dimension $$n$$ of $$V$$. If $$n = 1$$ then any normalized non-zero vector satisfies the desired property. For an arbitrary $$n$$, note that since $$\mathbb{C}$$ is algebraically closed we can always find an eigenvalue $$\lambda$$ with a non-zero eigenvector $$v_1$$, and thus decompose the space as
+We now prove that for any linear operator $$A$$ on $$V$$ there exists an orthogonal basis in which the matrix of such function is upper triangular. Note that this is equivalent to saying that there is an orthogonal basis $$\{v_1,...,v_n\}$$ of $$V$$ such that $$Av_i \in \text{span}_{\mathbb{C}}(v_1,...,v_i)$$, and we can prove this via a simple induction on the dimension $$n$$ of $$V$$. If $$n = 1$$ then any normalized non-zero vector satisfies the desired property. For an arbitrary $$n$$, note that since $$\mathbb{C}$$ is algebraically closed we can always find an eigenvalue $$\lambda$$ with a non-zero eigenvector $$v_1$$, and thus decompose the space as
 
 $$ V = \mathbb{C}v_1 \oplus (\mathbb{C}v_1)^\perp$$ 
 
-where $$W = (\mathbb{C}v_1)^\perp$$ is the $$(n-1)$$-dimensional orthogonal complement of the span of $$v_1$$. If we consider the orthogonal projection $$p$$ onto $$W$$, the function $$p \circ f$$ is an endomorphism on $$W$$, and thus by the inductive hypothesis we can find a basis $$\{v_2,...,v_n\}$$ for $$W$$ such that $$(p \circ f)(v_i) \in \text{span}_{\mathbb{C}}(v_2,...,v_i)$$. Now if we consider $$\{v_1,...,v_n\}$$, it is an orthogonal basis for $$V$$, and since we can decompose the identity function $$\text{id} = p' + p$$, where $$p'$$ is the projection onto the span of $$v_1$$, we have that for every $$v_k$$
+where $$W = (\mathbb{C}v_1)^\perp$$ is the $$(n-1)$$-dimensional orthogonal complement of the span of $$v_1$$. If we consider the orthogonal projection $$P$$ onto $$W$$, the function $$PA$$ is a linear operator on $$W$$, and thus by the inductive hypothesis we can find a basis $$\{v_2,...,v_n\}$$ for $$W$$ such that $$(PA)(v_i) \in \text{span}_{\mathbb{C}}(v_2,...,v_i)$$. Now if we consider $$\{v_1,...,v_n\}$$, it is an orthogonal basis for $$V$$, and since we can decompose the identity $$I = P' + P$$, where $$P'$$ is the projection onto the span of $$v_1$$, we have that for every $$v_k$$
 
-$$f(v_k) = ((p'+p)\circ f)(v_k) = (p'\circ f)(v_k) + (p \circ f)(v_k)$$
+$$Av_k = ((P'+P)A)(v_k) = (P'A)(v_k) + (PA)(v_k)$$
 
-By definition, $$(p'\circ f)(v_k)$$ is in the span of $$v_1$$, and by the induction hypothesis $$(p \circ f)(v_k)$$ is in the span of $$v_2,...,v_k$$, hence $$f(v_k)$$ belongs to the span of $$v_1,...,v_k$$, as desired. This basis is called the *Schur basis* of a linear function, and from this it follows that for any matrix $$A$$ there is an orthogonal matrix $$Q$$ such that $$Q^*AQ$$ is upper triangular.
+By definition, $$(P'A)(v_k)$$ is in the span of $$v_1$$, and by the induction hypothesis $$(PA)(v_k)$$ is in the span of $$v_2,...,v_k$$, hence $$f(v_k)$$ belongs to the span of $$v_1,...,v_k$$, as desired. This basis is called the *Schur basis* of an operator, and from this it follows that for any matrix $$A$$ there is an orthogonal matrix $$Q$$ such that $$Q^*AQ$$ is upper triangular.
 
-Recall that a matrix $$A$$ is called *normal* if it commutes with its adjoint, which in our case is nothing more than its conjugate transpose. The spectral theorem states that an operator on a finite dimensional vector space over $$\mathbb{C}$$ can be orthogonally diagonalized, i.e., written as $$Q\Lambda Q^*$$ with $$Q$$ orthogonal matrix, and $$\Lambda$$ diagonal matrix of eigenvalues, if and only if, it is normal. This theorem can actually be regarded as a corollary of the existence of the Schur Basis. If we write $$A$$ w.r.t. its Schur basis, we get that
+Recall that a linear operator $$A$$ is called *normal* if it commutes with its adjoint, and in our case for any fixed basis the matrix of the adjoint is the conjugate transpose of the operator's matrix. The spectral theorem states that an operator on a finite dimensional vector space over $$\mathbb{C}$$ can be orthogonally diagonalized, i.e., written as $$Q\Lambda Q^*$$ with $$Q$$ orthogonal matrix, and $$\Lambda$$ diagonal matrix of eigenvalues, if and only if, it is normal. This theorem can actually be regarded as a corollary of the existence of the Schur Basis. If we write $$A$$ w.r.t. its Schur basis, we obtain
 
 $$
 \begin{split}
@@ -62,15 +62,15 @@ A^* &=
 \end{split}
 $$
 
-since the matrices commute, if we look at the result of their diagonal products, it follows that any off-diagonal entry must be zero, and thus $$A$$ and $$A^*$$ must be diagonal matrices, and hence $$A$$ can be orthogonally diagonalized.
+and since the matrices commute, if we look at the result of their diagonal products, it follows that any off-diagonal entry must be zero, and thus $$A$$ and $$A^*$$ must be diagonal matrices, and hence $$A$$ can be orthogonally diagonalized.
 
 ## Nilpotent matrices
 
-An endomorphism $$f$$ on $$V$$ is called *nilpotent* if there exists a non-negative integer $$r$$ such that $$f^r = 0$$, i.e., f composed with itself $$r$$ times is equal to the zero map. From this definition it follows that any eigenvalue of $$f$$ must be zero, and since we've observed that any endomorphism on $$V$$ has a Schur basis, it follows that there is a basis in which $$f$$ is strictly upper triangular, i.e., all of its diagonal elements are zero. Conversely, any strictly upper triangular $$n \times n$$ matrix satisfies $$N^n = 0$$, and thus we get that an endomorphism over a finite-dimensional vector space is nilpotent iff there is a basis in which its matrix is strictly upper triangular. From these facts and the Schur decomposition, it follows that for any matrix $$A$$, there is an orthogonal matrix $$Q$$ such that
+An operator $$A$$ on $$V$$ is called *nilpotent* if there exists a non-negative integer $$r$$ such that $$A^r = 0$$, i.e., A composed with itself $$r$$ times is equal to the zero map. From this definition it follows that any eigenvalue of $$A$$ must be zero, and since we've observed that any operator on $$V$$ has a Schur basis, it follows that there is a basis in which $$A$$ is strictly upper triangular, i.e., all of its diagonal elements are zero. Conversely, any strictly upper triangular $$n \times n$$ matrix satisfies $$N^n = 0$$, and thus we get that an operator over a finite-dimensional vector space is nilpotent iff there is a basis in which its matrix is strictly upper triangular. From these facts and the Schur decomposition, it follows that for any matrix $$A$$, there is an orthogonal matrix $$Q$$ such that
 
 $$Q^*AQ = D + N$$
 
-where $$D$$ is a diagonal matrix containing the eigenvalues of $$A$$, and $$N$$ is a nilpotent matrix in strict upper triangular form. This decomposition, however, is not unique, since the Schur basis is also not unique. We can, however, prove the uniqueness of the endomorphisms associated with $$D$$ and $$N$$, that is, we can prove that any operator $$A$$ can be uniquely written as
+where $$D$$ is a diagonal matrix containing the eigenvalues of $$A$$, and $$N$$ is a nilpotent matrix in strict upper triangular form. This decomposition, however, is not unique, since the Schur basis is also not unique. We can, however, prove the uniqueness of the operators associated with $$D$$ and $$N$$, that is, we can prove that any operator $$A$$ can be uniquely written as
 
 $$A = D + N$$
 
