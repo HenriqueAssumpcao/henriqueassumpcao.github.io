@@ -39,7 +39,7 @@ where $$W = (\mathbb{C}v_1)^\perp$$ is the $$(n-1)$$-dimensional orthogonal comp
 
 $$Av_k = ((P'+P)A)(v_k) = (P'A)(v_k) + (PA)(v_k)$$
 
-By definition, $$(P'A)(v_k)$$ is in the span of $$v_1$$, and by the induction hypothesis $$(PA)(v_k)$$ is in the span of $$v_2,...,v_k$$, hence $$f(v_k)$$ belongs to the span of $$v_1,...,v_k$$, as desired. This basis is called the *Schur basis* of an operator, and from this it follows that for any matrix $$A$$ there is an orthogonal matrix $$Q$$ such that $$Q^*AQ$$ is upper triangular.
+By definition, $$(P'A)(v_k)$$ is in the span of $$v_1$$, and by the induction hypothesis $$(PA)(v_k)$$ is in the span of $$v_2,...,v_k$$, hence $$Av_k$$ belongs to the span of $$v_1,...,v_k$$, as desired. This basis is called the *Schur basis* of an operator, and from this it follows that for any matrix $$A$$ there is an orthogonal matrix $$Q$$ such that $$Q^*AQ$$ is upper triangular.
 
 Recall that a linear operator $$A$$ is called *normal* if it commutes with its adjoint, and in our case for any fixed basis the matrix of the adjoint is the conjugate transpose of the operator's matrix. The spectral theorem states that an operator on a finite dimensional vector space over $$\mathbb{C}$$ can be orthogonally diagonalized, i.e., written as $$Q\Lambda Q^*$$ with $$Q$$ orthogonal matrix, and $$\Lambda$$ diagonal matrix of eigenvalues, if and only if, it is normal. This theorem can actually be regarded as a corollary of the existence of the Schur Basis. If we write $$A$$ w.r.t. its Schur basis, we obtain
 
