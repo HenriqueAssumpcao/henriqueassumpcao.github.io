@@ -23,7 +23,7 @@ A few months ago I was studying Bhatia's Matrix Analysis book while I stumbled u
 
 Let $$V$$ be a $$n$$-dimensional vector space over the complex numbers, and assume we have a matrix $$T$$ in upper-triangular form, where we denote the $$ij$$-th element of $$T$$ by $$T_{ij}$$. The determinant of a triangular matrix is just the product of its diagonal elements, since any permutation other than the identity results in at least one zero appearing in the product of elements given by the determinant formula. Now note that
 
-$$\varphi(T,\lambda) = \det(t - \lambda I)$$
+$$\varphi(T,\lambda) = \det(T - \lambda I)$$
 
 where $$\varphi$$ denotes the characteristic polynomial of $$T$$, and since $$T - \lambda I$$ is also upper triangular, we get that
 
