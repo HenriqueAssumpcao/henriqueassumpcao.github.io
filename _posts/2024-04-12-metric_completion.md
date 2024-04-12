@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: completion of a metric space
-date: 2024-03-28
+date: 2024-04-12
 description: how to complete a metric space
 tags: 
 categories: math topology
