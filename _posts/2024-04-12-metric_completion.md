@@ -14,6 +14,7 @@ toc:
   - name: "The space of Cauchy sequences"
   - name: "Constructing an Isometry"
   - name: "The main result"
+  - name: "Comments"
 
 
 ---
@@ -90,7 +91,7 @@ $$
 
 hence $$\iota$$ is indeed an isometry, i.e., it is injective, continuous, and preserves the distances in $$E$$. This means that, in a very concrete and well-defined sense, $$E$$ is contained in $$\overline{E}$$, and so our construction so far makes some sense in the context of metric spaces. We now prove an additional important result.
 
-**Lemma:** The set $$\iota(E) = \{\iota(x)|x \in E\}$$ is a dense subset of $$\overline{E}$$, i.e., every element in $$\overline{E}$$ can be approximated by a sequence of elements in $$\iota(E)$$.
+**Lemma:** $$\iota(E)$$ is a dense subset of $$\overline{E}$$. In other words, every point on $$\overline{E}$$ can be approximated by a sequence of points in $$\iota(E)$$.
 
 **Proof:** Let $$[\overline{x}] \in \overline{E}$$ be an element of $$\overline{E}$$, and note that by definition $$\overline{x}$$ is a Cauchy sequence in $$E$$, hence for every $$N \in \mathbb{N}$$, we can find some $$K_N \in \mathbb{N}$$ such that
 
@@ -185,6 +186,7 @@ and thus we can conclude that $$([\overline{x}^{(k)}])$$ converges to $$[\overli
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
 
-This result shows that we can indeed build a new space from $$E$$ that is a complete metric space that "contains" $$E$$ in a meaningful way, i.e., there is a dense subset of this new space that is isometric to $$E$$. It is also easy to check that $$\iota(E) = \overline{E}$$ iff $$E$$ is complete, and through some extra work it can also be shown that $$\overline{E}$$ is unique up to isometries, i.e., any other space $$\overline{E}'$$ that contains a dense subset that is isometric to $$E$$ is itself isometric to $$\overline{E}$$. 
+## Comments
+This result shows that we can indeed build a new space from $$E$$ that is a complete metric space that "contains" $$E$$ in a meaningful way, i.e., there is a dense subset of this new space that is isometric to $$E$$. It is also easy to check that $$\iota(E) = \overline{E}$$ iff $$E$$ is complete, and through some extra work it can also be shown that $$\overline{E}$$ is unique up to isometry, i.e., any other space $$\overline{E}'$$ that contains a dense subset that is isometric to $$E$$ is itself isometric to $$\overline{E}$$. 
 
-This gives an interesting way of thinking about the real numbers: an irrational number such as $$\pi$$ can be viewed as nothing more than a set of sequences of rational numbers that are getting arbitrarily close together and converging to something that isn't rational, namely $$\pi$$ itself.
+This gives an interesting way of thinking about the real numbers: an irrational number such as $$\pi$$ can be viewed as the set of sequences of rational numbers that are getting arbitrarily close together and converging to something that isn't rational, namely $$\pi$$ itself. From the "perspective" of the rational numbers, the real numbers are nothing more than bundles of sequences that are getting really close together and "wanting" to converge to something. Sometimes this something turns out to be a rational number, but sometimes it turns out not to be, and when this is the case we simply identify this "thing" that isn't rational with the set of sequences that are getting arbitrarily close to it.
