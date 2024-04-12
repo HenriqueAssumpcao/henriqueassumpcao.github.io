@@ -2,7 +2,7 @@
 layout: distill
 title: completion of a metric space
 date: 2024-03-28
-description: how turn an arbitrary metric space into a complete metric space
+description: how to complete a metric space
 tags: 
 categories: math topology
 giscus_comments: false
@@ -14,7 +14,6 @@ toc:
   - name: "The space of Cauchy sequences"
   - name: "Constructing an Isometry"
   - name: "The main result"
-  - name: "Comments"
 
 
 ---
@@ -188,4 +187,4 @@ $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 
 This result shows that we can indeed build a new space from $$E$$ that is a complete metric space that "contains" $$E$$ in a meaningful way, i.e., there is a dense subset of this new space that is isometric to $$E$$. It is also easy to check that $$\iota(E) = \overline{E}$$ iff $$E$$ is complete, and through some extra work it can also be shown that $$\overline{E}$$ is unique up to isometries, i.e., any other space $$\overline{E}'$$ that contains a dense subset that is isometric to $$E$$ is itself isometric to $$\overline{E}$$. 
 
-This gives an interesting way of thinking about the real numbers: a real number can be identified with the set of all Cauchy sequences that are getting arbitrarily close to one another. We can thus think about an irrational number such as $$\pi$$ as nothing more than a set of sequences of rational numbers that are getting arbitrarily close together and converging to something that isn't rational, namely $$\pi$$ itself.
+This gives an interesting way of thinking about the real numbers: an irrational number such as $$\pi$$ can be viewed as nothing more than a set of sequences of rational numbers that are getting arbitrarily close together and converging to something that isn't rational, namely $$\pi$$ itself.
