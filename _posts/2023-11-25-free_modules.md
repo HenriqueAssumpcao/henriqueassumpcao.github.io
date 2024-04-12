@@ -57,6 +57,8 @@ since $$\ker(g) = \text{Im}(f)$$ and $$g \circ \phi = \text{id}_{M_3}$$. Since $
  
 since $$\phi(g(y))=y$$ by definition as $$y \in N$$. Thus $$\tau$$ is surjective, implying that it is an $$R$$-isomorphism and that $$M_2 \cong M_1 \oplus M_3$$.
 
+$$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$ 
+
 ## Sufficient condition for split exact sequence
 **Lemma 2:** Given an exact sequence of the form given in the previous diagram, if $$M_3$$ is a free $$R$$-module, then the sequence is split exact.
 
@@ -66,6 +68,8 @@ If $$M_3$$ is free, then there exists a basis $$B = \{x_i\}_{i \in \mathcal{I}}$
 $$g(h(x)) = g(\sum_j \alpha_{i_j}h(x_{i_j}))=\sum_j \alpha_{i_j}g(h(x_{i_j}))=\sum_j \alpha_{i_j}x_{i_j} = x$$
 
 thus $$g \circ h = \text{id}_{M_3}$$, and by the previous Lemma we conclude that the sequence is split exact.
+
+$$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$ 
 
 ## The main result
 Our strategy here is relatively simple: we will proceed via induction on the rank of the $$R$$-module. We will try to express any submodule as a direct sum of free modules with limited rank, and then conclude that the submodule itself also must have limited rank. This is where the exact sequences will come into play: we will build a natural exact sequence from the fact that our module is free with finite rank, and from this we'll use the previous lemmas together with induction to conclude the desired result.
@@ -84,6 +88,8 @@ Let $$\tau$$ denote the restriction of $$\psi$$ onto $$N$$, and note that $$\tex
 $$0 \mapsto \ker(\tau) \mapsto N \mapsto_{\tau} \text{Im}(\tau) \mapsto 0$$
 
 Note that the diagram is clearly an exact sequence, where the mapping between $$\ker(\tau)$$ and $$N$$ is merely the identity in $$N$$. Also, we've concluded that $$\text{Im}(\tau)$$ is a free $$D$$-module, thus by Lemma $$2$$ it follows that the sequence is split exact, and then by Lemma $$1$$ it follows that $$N \cong \ker(\tau) \oplus \text{Im}(\tau)$$. However $$\ker(\tau) \oplus \text{Im}(\tau)$$ is a free $$D$$-module of rank at most $$n$$, and thus $$N$$ is a free $$D$$-module of rank at most $$n$$, which concludes the proof.
+
+$$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$ 
 
 ## Comments
 I found the proof of the main theorem to be extremely interesting: although the exact sequence that we create arises naturally, having the idea of building such sequence in the first place is really clever, and in first sight the properties of split exact sequences given by Lemmas 1 and 2 are not at all obvious. However, after trying to prove the theorem by myself, I believe that the meaning of these results becomes much more clear and natural.

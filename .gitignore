@@ -9,3 +9,4 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+/_posts/2024-03-28-separation_and_farkas.md

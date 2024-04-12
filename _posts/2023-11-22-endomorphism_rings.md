@@ -59,9 +59,9 @@ Given $$g \in \text{End}_R(N)$$, define $$f(m) = \phi^{-1}(g(\phi(m)))$$. Note t
 
 $$\psi(f)(n) = \phi(\phi^{-1}(g(\phi(\phi^{-1}(n))))) = g(n),\forall n \in N$$
 
-thus $$\psi(f) = g$$, and so $$\psi$$ is surjective.
+thus $$\psi(f) = g$$, and so $$\psi$$ is surjective. The previous points show that $$\psi$$ is indeed a ring isomorphism, which concludes the proof.
 
-The previous points show that $$\psi$$ is indeed a ring isomorphism, which concludes the proof.
+$$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$ 
 ## Endomorphisms of commutative rings
 We now look at the ring of $$R$$-homomorphisms of a commutative unitary ring $$R$$.
 
@@ -89,6 +89,8 @@ $$f((a+I)(b+I))=f(ab+I)=f(a(b+I))=af(b+I)=(a+I)f(b+I)$$
 
 and so $$f \in \text{End}_{R}(R/I)$$, implying that $$\text{End}_{R/I}(R/I) = \text{End}_{R}(R/I)$$. Using this fact and the previous result, we conclude that $$R/I$$ and $$\text{End}_{R}(R/I)$$ are isomorphic rings.
 
+$$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$ 
+
 ## Putting it all together
 Recall that an $$R$$-module $$M$$ is called simple if it has no proper non-trivial submodules, i.e., its only submodules are $$\{0\}$$ and $$M$$. We know that this is equivalent to two things: first that $$M$$ must be cyclic, and every non-zero element of $$M$$ must be a generator, and second that $$M$$ is $$R$$-isomorphic to $$R/I$$, where $$I$$ is some maximal left-ideal of $$R$$. We are now ready to prove our main result.
 
@@ -97,6 +99,8 @@ Recall that an $$R$$-module $$M$$ is called simple if it has no proper non-trivi
 **Proof:**
 
 Since $$M$$ is simple, it follows that it is $$R$$-isomorphic to $$R/I$$, where $$I$$ is a maximal left-ideal of $$R$$, but since $$R$$ is commutative, this implies that $$I$$ is a maximal bilateral ideal. From Lemma 1, it follows that $$\text{End}_{R}(M)$$ and $$\text{End}_{R}(R/I)$$ are isomorphic rings, and from Lemma 2 it follows that $$\text{End}_{R}(R/I)$$ is isomorphic to $$R/I$$ as rings, so $$\text{End}_{R}(M)$$ is isomorphic to $$R/I$$ as rings. However, note that since $$I$$ is a maximal bilateral ideal, $$R/I$$ is a field, and thus $$\text{End}_{R}(M)$$ is itself a field.
+
+$$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$ 
 
 ## Comments
 The proof of this result is quite simple due to it being mainly a series of straightforward algebraic manipulations. However, I still think that it portrays some interesting techniques.
