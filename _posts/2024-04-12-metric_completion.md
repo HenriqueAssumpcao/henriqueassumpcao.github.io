@@ -34,28 +34,28 @@ We'll denote a sequence of elements of $$E$$ by $$(x_n) \subset E$$, and we reca
 
 $$ i,j > K \Rightarrow d(x_i,x_j) < \epsilon$$
 
-It is immediate that any convergent sequence in $$E$$ is Cauchy, however the converse is not true in general. Cauchy sequences are sequences that really want to converge to something, but that something may not be in $$E$$, e.g., the sequence $$((1+1/n)^n) \subset \mathbb{Q}$$ is Cauchy, however we know that it converges to Euler's constant $$e$$, which is irrational. Our goal here is to show that we can build a larger space where every Cauchy sequence converges to a point in that space, and in the case of $$\mathbb{Q}$$ this will yield one of the possible constructions for the real numbers.
+It is immediate that any convergent sequence in $$E$$ is Cauchy, however the converse is not true in general. The elements in Cauchy sequences are getting arbitrarily close to one another as $$n$$ increases, and so in some sense these sequences "want" to converge to something, but the problem is that this something may not be an element of the metric space, e.g., the sequence $$((1+1/n)^n) \subset \mathbb{Q}$$ is Cauchy, however we know that it converges to Euler's constant $$e$$, which is irrational. Our goal here is to show that we can build a larger space where every Cauchy sequence converges to a point in that space, and in the case of $$\mathbb{Q}$$ this will yield one of the possible constructions for the real numbers.
 
 Now recall that if $$(E_1,d_1),(E_2,d_2)$$ are metric spaces, a function $$f:E_1\mapsto E_2$$ is called an isometry if
 
 $$\forall x,y \in E_1: d_1(x,y) = d_2(f(x),f(y))$$
 
-Note that from this definition it follows that an isometry is always injective and continuous, more specifically it is Lipschitz continuous with constant 1. Sometimes isometries are also required to be bijective, but we will make no such requirement. The main point here is that an isometry is a distance-preserving injective map, and thus in some it preserves the metric structure of the domain in its image. Our goal is not only to construct a complete space from $$E$$, but do this in a way that guarantees that $$E$$ is contained in this larger space via an isometry.
+Note that from this definition it follows that an isometry is always injective and continuous, more specifically it is Lipschitz continuous with constant 1. Sometimes isometries are also required to be bijective, but we will make no such requirement. The main point here is that an isometry is a distance-preserving injective map, and so it preserves the metric structure of the domain in its image. Our goal is not only to construct a complete space from $$E$$, but do this in a way that guarantees that $$E$$ is contained in this larger space via an isometry.
 
 ## The space of Cauchy sequences
 I think that the hardest part of this exercise is probably thinking about a good candidate for the space to complete $$E$$. We'll consider the following set
 
 $$C[E] = \{(x_n) \subset E|(x_n)\text{  is Cauchy}\}$$
 
-We'll equip this set with the following function
+We'll equip this set with a metric that captures whether how close two sequences are getting to each other as $$n$$ increases arbitrarily, more specifically, we consider
 
 $$D((x_n),(y_n)) = \lim_{n\rightarrow \infty}d(x_n,y_n)$$
 
-After seeing this construction, it is not hard to believe that something related to this set will be our completion, however thinking about this construction in the first place is something that I found to be quite challenging. The intuition here is that $$D$$ is measuring how close the sequences are getting as $$n$$ gets arbitrarily large. We first note that $$D$$ is almost a metric, since it follows by definition that $$D$$ is symmetric and respects the triangle inequality. However, it is not true that if $$D((x_n),(y_n)) = 0$$ then $$(x_n),(y_n)$$ are the same, since any pair of distinct sequences that "want" to converge to the same point will have distance zero. For example, we can consider $$C[\mathbb{Q}]$$ and note that the sequences $$(1/n)$$ and $$(-1/n)$$ both converge to zero, and thus
+After seeing this construction, it is not hard to believe that something related to this set will be our completion, however thinking about this construction in the first place is something that I found to be quite challenging. We first note that $$D$$ is almost a metric, since it follows by definition that $$D$$ is symmetric and respects the triangle inequality. However, it is not true that if $$D((x_n),(y_n)) = 0$$ then $$(x_n),(y_n)$$ are the same, since any pair of distinct sequences that "want" to converge to the same point will have distance zero. For example, we can consider $$C[\mathbb{Q}]$$ and note that the sequences $$(1/n)$$ and $$(-1/n)$$ both converge to zero, and thus
 
-$$\lim_{n\rightarrow \infty}|1/n-1/n| = 0$$
+$$\lim_{n\rightarrow \infty}|1/n-(-1/n)| = \lim_{n\rightarrow \infty}(2/n) = 0$$
 
-however they are clearly distinct. Formally, $$D$$ is a pseudo-metric, and one classical basic exercise in analysis shows that any space with a pseudo-metric can be naturally transformed into a metric space. In order for us to do that, we define the equivalence relation $$\sim$$ on $$C[E]$$ given by
+however they are clearly distinct. Formally, $$D$$ is a pseudo-metric, and we can naturally transform a space with a pseudo-metric into a metric space by using equivalence relations. In order for us to do that, we define the equivalence relation $$\sim$$ on $$C[E]$$ given by
 
  $$(x_n) \sim (y_n) \Longleftrightarrow D((x_n),(y_n)) = 0$$
 
@@ -80,7 +80,7 @@ $$
 \end{split}
 $$
 
-That is, we map each point $$x \in E$$ to the equivalence class of the constant sequence with each element equal to $$x$$. Such sequence is clerly Cauchy, and it converges to $$x$$, thus $$\iota(x)$$ is the set of all sequences that converge to $$x$$. Now, we note that
+That is, we map each point $$x \in E$$ to the equivalence class of the constant sequence with each element equal to $$x$$. Such sequence is clearly Cauchy, and it converges to $$x$$, so $$\iota(x)$$ is the set of all sequences that converge to $$x$$. Now, we note that
 
 $$
 \begin{split}
@@ -113,11 +113,11 @@ This means that, not only is $$E$$ contained in $$\overline{E}$$ in a way that p
 
 ## The main result
 
-We are now ready to show that $$\overline{E}$$ is complete, i.e., if we have a Cauchy sequence $$([\overline{x}^{(k)}])_{k \in \mathbb{N}}$$ in $$\overline{E}$$, then it must converge to some $$[\overline{x}]$$ in $$\overline{E}$$. Concretely, this means that as $$k$$ gets arbitrarily large, the point to which the Cauchy sequences in $$[\overline{x}^{(k)}]$$ "want" to converge to gets arbitrarily close to the point that $$[\overline{x}]$$ "wants" to converge to.
+We are now ready to show that $$\overline{E}$$ is complete, that is, if we have a Cauchy sequence $$([\overline{x}^{(k)}])_{k \in \mathbb{N}}$$ in $$\overline{E}$$, then it must converge to some $$[\overline{x}]$$ in $$\overline{E}$$. Concretely, this means that as $$k$$ gets arbitrarily large, the point to which the Cauchy sequences in $$[\overline{x}^{(k)}]$$ "want" to converge to gets arbitrarily close to the point that $$[\overline{x}]$$ "wants" to converge to.
 
 **Theorem:** If $$(E,d)$$ is a metric space, than the space $$(\overline{E},\overline{D})$$ is a complete metric space. Moreover, there is an isometry $$\iota$$ between $$E$$ and $$\overline{E}$$ such that $$\iota(E)$$ is dense in $$\overline{E}$$.
 
-**Proof:** The trickiest part of this proof is finding a candidate for the convergent point of the sequence $$([\overline{x}^{(k)}])$$. First, we note that $$([\overline{x}^{(k)}])$$ converges to $$[\overline{x}]$$ iff $$(\overline{x}^{(k)})$$ converges to $$\overline{x}$$ w.r.t. $$D$$, for some elements $$\overline{x}^{(k)},\overline{x}$$ of the respective equivalence classes, thus we only need to construct a Cauchy sequence $$\overline{x}$$ in $$E$$ such that for any $$\epsilon > 0$$ there exists some $$k \in \mathbb{N}$$ such that
+**Proof:** The trickiest part of this proof is finding a candidate for the convergent point of the sequence $$([\overline{x}^{(k)}])$$. First, we note that $$([\overline{x}^{(k)}])$$ converges to $$[\overline{x}]$$ iff $$(\overline{x}^{(k)})$$ converges to $$\overline{x}$$ w.r.t. $$D$$, for some elements $$\overline{x}^{(k)},\overline{x}$$ of the respective equivalence classes, thus we only need to construct a Cauchy sequence $$\overline{x}$$ in $$E$$ such that for any $$\epsilon > 0$$ there exists some $$k \in \mathbb{N}$$ so as
 
 $$i > k \Rightarrow \lim_{n\rightarrow \infty} d(x^{(i)}_n,x_n) < \epsilon$$
 
@@ -129,7 +129,7 @@ hence our candidate will be the sequence
 
 $$\overline{x} = (x^{(1)}_{n_1},x^{(2)}_{n_2},...,x^{(k)}_{n_k},...) =  (x^{(k)}_{n_k})_{k \in \mathbb{N}}$$
  
-We now need to show that this sequence is Cauchy, and also that $$\overline{x}^{(k)}$$ converges to it. First, let $$\delta > 0$$, and thus we can find some $$k_1 \in \mathbb{N}$$ such that $$1/k_1 < \delta/6$$, and we can also find some $$k_2 \in \mathbb{N}$$ such that
+We now need to show that this sequence is Cauchy, and also that $$(\overline{x}^{(k)})$$ converges to it. First, let $$\delta > 0$$, so we can find some $$k_1 \in \mathbb{N}$$ such that $$1/k_1 < \delta/6$$, and we can also find some $$k_2 \in \mathbb{N}$$ such that
 
 $$i,j > k_2 \Rightarrow D(\overline{x}^{(i)},\overline{x}^{(j)}) = \lim_{n\rightarrow \infty} d(x^{(i)}_n,x^{(j)}_n) < \delta/6$$
 
@@ -137,7 +137,7 @@ since $$(\overline{x}^{(k)})$$ is also a Cauchy sequence. Now let $$k =\max(k_1,
 
 $$d(x^{(i)}_{n_i},x^{(j)}_{n_j}) \leq d(x^{(i)}_{n_i},x^{(i)}_{n}) + d(x^{(i)}_{n},x^{(j)}_{n}) + d(x^{(j)}_{n},x^{(j)}_{n_j})$$
 
-thus if we take $$n > \max(n_i,n_j)$$, we get that 
+and taking $$n > \max(n_i,n_j)$$, we obtain
 
 $$
 \begin{split}
@@ -156,7 +156,9 @@ d(x^{(i)}_{n_i},x^{(j)}_{n_j}) &< \delta/3 + d(x^{(i)}_{n},x^{(j)}_{n})\\
 \end{split}
 $$
 
-and since $$\delta$$ was arbitrary, this shows that $$\overline{x}$$ is Cauchy. Now fix $$\epsilon > 0$$, and let $$k_1 \in \mathbb{N}$$ be such that $$1/k_1 < \epsilon/4$$, thus 
+and since $$\delta$$ was arbitrary, this shows that $$\overline{x}$$ is Cauchy.
+
+ Now fix $$\epsilon > 0$$, and let $$k_1 \in \mathbb{N}$$ be such that $$1/k_1 < \epsilon/4$$, thus 
 
 $$n > n_{k_1} \Rightarrow d(x^{(k_1)}_n,x^{(k_1)}_{n_{k_1}}) < 1/k_1 < \epsilon/4$$
 
