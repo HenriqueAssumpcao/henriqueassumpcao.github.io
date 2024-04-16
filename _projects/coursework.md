@@ -13,7 +13,7 @@ This post is essentially a non-exhaustive list of the courses related to CS and 
 Courses marked with "(grad)" mean that they are graduate-level courses, whereas courses without this indication are undergraduate-level. Courses marked with "(online)" mean that I've taken them online. Courses marked with "(todo)" are ones I'm certain I will attend in the future.
 ## Maths courses 
 ### Courses taken at UFMG
-* Graph Theory (2022/2)
+* Graph Theory (2022/2) (grad)
   + Introduction to graphs, matchings, connectivity, flows and cuts, planarity, vertex and edge coloring, flows and tensions over the integers and over finite fields, perfect graphs, extremal theory, ramsay theory, probabilistic method
   + Bibliography: [Prof. Coutinho's Lecture Notes](https://homepages.dcc.ufmg.br/~gabriel/assets/files/coutinho-grafos-ufmg.pdf), Diestel's *Graph Theory*, Bondy and Murty's *Graph Theory*
 * Real Analysis I (2023/1)
@@ -30,7 +30,9 @@ Courses marked with "(grad)" mean that they are graduate-level courses, whereas 
   + Bibliography: [Prof. Csaba's Lecture Notes](https://schcs.github.io/WP/index.php/ensino/grupos-e-corpos/), Gallian's *Contemporary Abstract Algebra*, Martins and Tengan's *Álgebra Exemplar*
 * Introduction to Topology (2024/1) 
   + Metric spaces, continuity, open and closed sets, sequences, topological spaces, bases, product and quotient topology, connectedness, compact spaces, spaces of functions
-  + Bibliography: Munkre's *Toplogy: A first course*, Bredon's *Topology and Geometry*
+  + Bibliography: Munkre's *Topology: A first course*, Bredon's *Topology and Geometry*
+* Real Analysis II (TODO) 
+* Lie Algebras (TODO)
 
 ### Courses taken elsewhere
 * MIT 18.102: Introduction to Functional Analysis (2023/2) (online)
@@ -41,17 +43,20 @@ Courses marked with "(grad)" mean that they are graduate-level courses, whereas 
 ### Courses taken at UFMG
 * Deep Learning Algorithms (2021/2) (grad)
   + Introduction to neural networks, backpropagations, optimization algorithms, stochastic gradient descent, adam optimizer, adagrad optimizer, convolutional neural networks, recurrent neural networks, transformers, applications
-+ Bibliography: Goodfellow, Bengio and Courville's *Deep Learning*
+  + Bibliography: Goodfellow, Bengio and Courville's *Deep Learning*
 * Information Theory (2022/1)
   + Introduction to shannon entropy, Source Coding Theorem, symbol and stream codes, communication over a noisy channel, decision theory, introduction to kolmogorov complexity and universal probability, advanced information measures
   + Bibliography: MacKay's *Information Theory, Inference and Learning Algorithms*
-* Quantum Computing (2023/1)
+* Quantum Computing (2023/1) (grad)
   + Introduction to quantum mechanics, qubits, quantum states, quantum entanglement, quantum information, quantum circuits, Shor's algorithm, Grover's algorithm, contextuality, applications to graph theory. Students were asked to present a seminar and write a survey related to specific fields within QC.
   + The seminar I presented in this class can be found [here](https://henriqueassumpcao.github.io/projects/seminars/)
   + Bibliography: Nielsen and Chuang's *Quantum Computation and Quantum Information*
 * Advanced Seminars in Mathematical Aspects of Deep Learning (2023/2) (grad)
-  + This course consists of a series of seminars in mathematical aspects of deep learning. The covered aspects are: introduction to functional analysis, approximation theorems for neural networks, exact learning, vc-dimension, information theory for neural networks, output manifold of a neural network, statistical manifolds and optimization, universal approximation theorem, spectral clustering, dimensionality reduction, graph representation learning.
+  + This course consists of a series of seminars in mathematical aspects of deep learning. The covered aspects are: introduction to functional analysis, approximation theorems for neural networks, exact learning, vc-dimension, information theory for neural networks, output manifold of a neural network, statistical manifolds and optimization, universal approximation theorem, spectral clustering, dimensionality reduction.
   + My seminar can be found [here](https://henriqueassumpcao.github.io/projects/seminars/)
+* Semidefinite Programming on Graphs (2024/1) (grad)
+  + Orthogonal representations of graphs, conic programming, conic duality, Lovàsz theta function, Goemans and Williamson's algorithm for maximum-cut, semidefinite programs for NP-Hard graph parameters, lift-and-project methods, ellipsoid method.
+  + Bibliography: Lovàsz's *Graphs and Geometry*, [Prof. Coutinho's Lecture Notes](https://homepages.dcc.ufmg.br/~gabriel/assets/files/coutinho-sdpnotes-ufmg.pdf)
 
 ### Courses taken elsewhere
 * Stanford CS224N: NLP with Deep Learning (2021/1) (online)
