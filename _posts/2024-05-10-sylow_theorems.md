@@ -68,10 +68,10 @@ $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 
 We can now use this fact to prove an important Lemma.
 
-**Lemma:** If $$p$$ is a prime and $$n$$ is a non-negative integer, then
+**Lemma:** If $$p$$ is a prime and $$n$$ is a non-negative integer, then $$p$$ does not divide
 
 $$
-p \not| {n \choose p^{\nu_p(n)}}
+{n \choose p^{\nu_p(n)}}
 $$
 
 **Proof:** Let $$\alpha = \nu_p(n)$$, then
@@ -79,12 +79,14 @@ $$
 $$
 {n \choose p^{\alpha}} = \frac{n!}{(p^{\alpha})!(n-p^{\alpha})!}
 $$
+
 The idea now is to show that $$p^{\nu_p(n!)}$$ appears in this denominator. By Legendre's formula, we have
 
 $$
 \nu_p(p^{\alpha}!) = \sum_{k\geq 1}\Big\lfloor\frac{p^{\alpha}}{p^k}\Big\rfloor\\
 \nu_p((n-p^{\alpha})!) = \sum_{k\geq 1}\Big\lfloor\frac{n-p^{\alpha}}{p^k}\Big\rfloor
 $$
+
 Now note that if $$a,b$$ are non-negative integers, then the exponent of $$p$$ in the prime factorization of $$ab$$ will be the sum of the exponents of $$p$$ in the factorizations of $$a$$ and $$b$$, i.e., $$\nu_p(ab) = \nu_p(a) + \nu_p(b)$$. This implies that
 
 $$
@@ -97,6 +99,7 @@ Now fix $$k \geq 1$$ and note that
 $$
 n = \Big\lfloor\frac{n}{p^k}\Big\rfloor p^k + r
 $$
+
 where $$0 \leq r < p^k$$ and $$\Big\lfloor\frac{n}{p^k}\Big\rfloor$$ are unique, on the other hand
 
 $$
@@ -107,6 +110,7 @@ n &= (n-p^{\alpha}) + p^{\alpha}\\
 \Rightarrow \Big\lfloor\frac{n}{p^k}\Big\rfloor p^k + r &= (\Big\lfloor\frac{n-p^{\alpha}}{p^k}\Big\rfloor + \Big\lfloor\frac{p^{\alpha}}{p^k}\Big\rfloor)p^k + (r'+r'')
 \end{split}
 $$
+
 and since $$0 \leq r',r'' < p^k$$, the uniqueness of the euclidean division implies that $$r = r' + r''$$ and 
 
 $$
@@ -130,9 +134,11 @@ $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 **Proof:**
 
 Let $$\nu_p(G) = \alpha$$, and consider $$F = \{X \subseteq G:|X| = p^\alpha\}$$ be the set of all subsets of $$G$$ with cardinality precisely $$p^\alpha$$. Note that the cardinality of $$F$$ is given by
+
 $$
 {n \choose p^\alpha}
 $$
+
 We observe that $$G$$ acts on $$F$$ via right multiplication
 
 $$
@@ -192,6 +198,7 @@ but since $$p$$ does not divide $$|K^G|$$, this means that there is some $$i$$ s
 $$
 |KQ| = \frac{|K||Q|}{|K \cap Q|} = \frac{p^\alpha p^\alpha}{|K \cap Q|}
 $$
+
 but since $$KQ \leq G$$ and $$|KQ|$$ divides $$G$$, this means that $$|KQ| \leq p^\alpha$$, implying that $$|K \cap Q|$$ must be a multiple of $$p^\alpha$$, but since both $$K$$ and $$Q$$ are Sylow $$p$$-groups, this implies that $$|K \cap Q| = p^\alpha = |K| = |Q|$$, hence $$K=Q$$. Since $$K = P^g$$, this implies that $$Q$$ and $$P$$ are conjugate, which concludes the proof.
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
