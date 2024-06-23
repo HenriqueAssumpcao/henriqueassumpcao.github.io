@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: field extensions and splitting fields
+title: solvable groups
 date: 2024-06-14
 description: basics about solvable groups
 tags: 
@@ -125,6 +125,6 @@ I'll end this post with some properties of solvable groups that will be useful f
   * Let $$G \geq G^{(1)} \geq \ldots \geq G^{(k)} = 1$$ be the derived series of $$G$$. We'll show by induction on $$k$$ that $$H^{(k)} \leq G^{(k)}$$ and conclude the result. For the base case, since $$G/G'$$ is abelian, it follows that $$HG'/G' \leq G/G'$$ is also abelian, but since $$HG'/G'$$ is isomorphic to $$H/H\cap G'$$, it follows that $$H' \leq H\cap G' \leq G'$$. Now for the general case, let $$G^{(k-1)}/G^{(k)}$$ be abelian, and note then that $$H^{(k-1)}G^{(k)}/G^{(k)}$$ must also be abelian, and again since the latter is isomorphic to $$H^{(k-1)}/H^{(k-1)}\cap G^{(k)}$$, it follows that $$H^{(k)} \leq G^{(k)} = 1$$, as desired.
   * Note that if $$G,H$$ are groups and $$\varphi$$ is an homomorphism, then $$\varphi([a,b]) = [\varphi(a),\varphi(b)]$$ for any $$a,b \in G$$, hence $$\varphi(G') = \varphi(G)'$$, which by induction immediately implies that $$\varphi(G^{(i)}) = \varphi(G)^{(i)}$$ for any $$i$$.
   * Let $$G \geq G^{(1)} \geq \ldots \geq G^{(k)} = 1$$ be the derived series of $$G$$, and let $$\pi$$ be the canonical projection of $$G$$ onto $$G/N$$. Note then that by the previous item we have $$\pi(G^{(i)}) = (G/N)^{(i)}$$ since $$\pi$$ is surjective, hence $$1 = \pi(G^{(k)}) = (G/N)^{(k)}$$, implying that $$G/N$$ is solvable.
-  * Let $$k,l$$ be such that $$(G/N)^{(k)} = 1,N^l = 1$$, and consider the subgroup $$G^{(k+l)}$$ of $$G$$. We note that $$\pi(G^{(k)}) = (G/N)^{(k)} = 1$$, hence $$G^{(k)} \leq N$$, and thus $$G^{(k+l)} = G^{(k)}^{(l)} \leq N^{(l)} = 1$$, implying that $$G^{(k+l)} = 1$$, and thus $$G$$ is solvable.
+  * Let $$k,l$$ be such that $$(G/N)^{(k)} = 1,N^l = 1$$, and consider the subgroup $$G^{(k+l)}$$ of $$G$$. We note that $$\pi(G^{(k)}) = (G/N)^{(k)} = 1$$, hence $$G^{(k)} \leq N$$, and thus $$G^{(k+l)} = (G^{(k)})^{(l)} \leq N^{(l)} = 1$$, implying that $$G^{(k+l)} = 1$$, and thus $$G$$ is solvable.
 
   $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
