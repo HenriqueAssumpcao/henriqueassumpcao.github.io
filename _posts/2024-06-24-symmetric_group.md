@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: symmetric and alternating groups
-date: 2024-06-15
+date: 2024-06-24
 description: basics about the symmetric group and the alternating group
 tags: 
 categories: math group-theory
