@@ -44,10 +44,10 @@ $$
 
 hence $$G'$$ is also a characteristic subgroup. We now prove some basic facts about these subgroups.
 
-**Proposition:** If $$G$$ is a group, $$K,H \leq G$$ are subgroups where $$K \subseteq H$$, then the following hold:
+**Proposition 1:** If $$G$$ is a group, $$K,H \leq G$$ are subgroups where $$K \subseteq H$$, then the following hold:
 
-  * If $$K$$ is a characteristic subgroup of $$H$$, and $$H$$ is a characteristic subgroup of $$G$$, then $$K$$ is also a characteristic subgroup of $$G$$.
-  * If $$K$$ is a characteristic subgroup of $$H$$, and $$H$$ is a normal subgroup of $$G$$, then $$K$$ is also a normal subgroup of $$G$$.
+  * If $$K$$ is a characteristic subgroup of $$H$$, and $$H$$ is a characteristic subgroup of $$G$$, then $$K$$ is also a characteristic subgroup of $$G$$;
+  * If $$K$$ is a characteristic subgroup of $$H$$, and $$H$$ is a normal subgroup of $$G$$, then $$K$$ is also a normal subgroup of $$G$$;
   * The quotient $$G/G'$$ is an abelian group, and if $$N \trianglelefteq G$$ is a normal subgroup such that $$G/N$$ is abelian, then $$G' \leq N$$.
 
 **Proof:**
@@ -89,17 +89,17 @@ where $$G^{(1)} = G'$$, and $$G^{(i+1)}$$ is the derived subgroup of $$G^{(i)}$$
 ## Characterization and properties of solvability
 We can now characterize solvable groups in terms of the derived series.
 
-**Theorem:** If $$G$$ is a group, the following are equivalent:
+**Theorem 1:** If $$G$$ is a group, the following are equivalent:
 
-  1. The group $$G$$ is solvable.
-  2. There exists a subnormal series of $$G$$ in which each of the quotients is abelian.
+  1. The group $$G$$ is solvable;
+  2. There exists a subnormal series of $$G$$ in which each of the quotients is abelian;
   3. There exists some $$k$$ for which $$G^{(k)} = 1$$.
 
 **Proof:**
 
-($$1 \Rightarrow 2$$) This simply follows from the fact that any normal series is also subnormal.
+(1 $$\Rightarrow$$ 2) This simply follows from the fact that any normal series is also subnormal.
 
-($$2 \Rightarrow 3$$) Let 
+(2 $$\Rightarrow$$ 3) Let 
 
 $$
 G = G_0 \trianglerighteq G_1 \trianglerighteq \ldots \trianglerighteq G_k = 1
@@ -107,17 +107,17 @@ $$
 
 be a subnormal series in which each quotient $$G_i/G_{i+1}$$ is abelian. We'll show that $$G^{(k)} \leq G_k$$ and conclude the result, and in order for us to do this we proceed via induction on $$k$$. For the base step, we note that since $$G/G_1$$ is abelian, it follows that $$G' \leq G_1$$. Now for the general case, we know that $$G_{k-1}/G_k$$ is abelian, hence $$G_{k-1}' \leq G_k$$, but since by the inductive hypothesis we have that $$G^{(k-1)} \leq G_{k-1}$$, this implies that $$G^{(k)} \leq G_k$$. Since $$G_k = 1$$, this shows that $$G^{(k)} = 1$$, as desired.
 
-($$3 \Rightarrow 1$$) The derived series is a normal series that satisfies the desired properties.
+(3 $$\Rightarrow$$ 1) The derived series is a normal series that satisfies the desired properties.
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
 
 I'll end this post with some properties of solvable groups that will be useful for future posts.
 
-**Proposition:** If $$G$$ is a group, then the following hold:
+**Proposition 2:** If $$G$$ is a group, then the following hold:
 
- * Any subgroup of a solvable group is solvable.
- * If $$\varphi$$ is a homomorphism between two groups $$G,H$$, then $$\varphi(G^{(i)}) = \varphi(G)^{(i)}$$ for any $$i$$. In particular, solvability is a property that is preserved under isomorphisms.
- * If $$G$$ is a solvable group and $$N$$ is a normal subgroup, then $$G/N$$ is solvable.
+ * Any subgroup of a solvable group is solvable;
+ * If $$\varphi$$ is a homomorphism between two groups $$G,H$$, then $$\varphi(G^{(i)}) = \varphi(G)^{(i)}$$ for any $$i$$. In particular, solvability is a property that is preserved under isomorphisms;
+ * If $$G$$ is a solvable group and $$N$$ is a normal subgroup, then $$G/N$$ is solvable;
  * If $$N$$ is a normal subgroup of $$G$$ such that both $$N$$ and $$G/N$$ are solvable, then $$G$$ is solvable.
 
 **Proof**:
