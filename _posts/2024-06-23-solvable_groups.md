@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: solvable groups
-date: 2024-06-14
+date: 2024-06-23
 description: basics about solvable groups
 tags: 
 categories: math group-theory
