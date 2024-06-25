@@ -10,8 +10,9 @@ related_posts: false
 related_publications: 
 
 toc:
-  - name: ""
-  - name: ""
+  - name: "Transitive groups"
+  - name: "Conjugacy classes and simplicity"
+  - name: "Simplicity and solvability"
 
 
 ---
@@ -127,7 +128,7 @@ where each cycle has length $$c_i$$, with $$c_1 \geq \ldots \geq c_k$$. If $$c_1
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
 
-## Simplicity and Solvability
+## Simplicity and solvability
 
 The simplicity of $$A_n$$ for $$n \geq 5$$ also implies that $$A_n$$ is the only proper non-trivial normal subgroup of $$S_n$$ in these cases. 
 
