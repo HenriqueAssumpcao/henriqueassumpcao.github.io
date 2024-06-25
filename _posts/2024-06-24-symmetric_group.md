@@ -226,7 +226,7 @@ From this result, we know now the following about the conjugacy classes of $$S_n
  * If we start with some conjugacy class $$C$$ of $$S_n$$, then either $$C \subseteq A_n$$ or $$C \cap A_n = \emptyset$$.
  * If $$C \subseteq A_n$$, one of two possible scenarios may happen: if the centralizer of any element of $$C$$ w.r.t. $$S_n$$ is contained in $$A_n$$, then $$C$$ is the disjoint union of two conjugacy classes in $$A_n$$, otherwise $$C$$ is itself a conjugacy class in $$A_n$$.
 
-These facts will be quite useful in proving that $$A_n$$ is simple when $$n \geq 5$$, and this in turn will lead us to conclude that $$S_n$$ is unsolvable, again when $$n \geq 5$$.
+These facts will be quite useful in proving that $$A_n$$ is simple when $$n \geq 5$$, and this in turn will lead us to conclude that $$S_n$$ is not solvable, again when $$n \geq 5$$.
 
 
 
