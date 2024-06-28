@@ -143,6 +143,7 @@ Now it is actually fairly straightforward to check that $$S_n$$ is not solvable 
 $$
 G = G_0 \trianglerighteq G_1 \ldots \trianglerighteq G_k = 1
 $$
+
 where each $$G_i \trianglelefteq G$$, and $$G_i/G_{i+1}$$ is abelian. If $$n \geq 5$$, since neither $$S_n$$ nor $$A_n$$ are abelian, and since the only normal subgroup of $$S_n$$ is $$A_n$$, any normal series is of the form
 
 $$
