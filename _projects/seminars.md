@@ -7,6 +7,9 @@ importance: 2
 category:
 related_publications: false
 ---
+## Gauge Duality and SDP formulations for Maxcut
+
+I presented a seminar about how to apply the theory of Gauge duality to SDP formulations of the maxcut problem, namely how to relate the linear programming formulations of the weighted maximum cut with the problem of fractional cut-cover through gauge duality, and also how to relate the famous Goemans-Williamson SDP formulation of Maxcut with its gauge dual. The slides can be found [here](https://henriqueassumpcao.github.io/assets/pdf/GaugeDuality_and_Maxcut.pdf)
 
 ## Quantum Random Number Generation
 
