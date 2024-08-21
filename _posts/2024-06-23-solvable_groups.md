@@ -68,7 +68,7 @@ $$
 G = G_0 \geq G_1 \geq \ldots \geq G_k = 1
 $$
 
-is a finite chain of subgroups, we say call this chain a *normal series** if each $$G_i$$ is a normal subgroup of $$G$$. We say that a series is *subnormal* if for each $$i$$ we have $$G_{i+1} \trianglelefteq G_i$$, and of course any normal series is also by definition subnormal. We say that a group $$G$$ is solvable if there exists a normal series of subgroups
+is a finite chain of subgroups, we say call this chain a *normal series* if each $$G_i$$ is a normal subgroup of $$G$$. We say that a series is *subnormal* if for each $$i$$ we have $$G_{i+1} \trianglelefteq G_i$$, and of course any normal series is also by definition subnormal. We say that a group $$G$$ is solvable if there exists a normal series of subgroups
 
 $$
 G = G_0 \geq G_1 \geq \ldots \geq G_k = 1
