@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: finite field
+title: finite fields
 date: 2024-10-10
 description: some basic facts about finite fields
 tags: 
@@ -182,20 +182,22 @@ we get that $$f(\alpha) = 0$$, thus all elements of $$\mathbb{K}$$ are roots of 
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
 
-We can also prove that if $$\mathbb{F}_1,\mathbb{F}_2$$ are fields of size $$q$$, then they are isomorphic, but in order to do this we need some results about splitting fields that I will introduce in a later post. To end this post, we prove the following:
+We can also prove that if $$\mathbb{F}_1,\mathbb{F}_2$$ are fields of size $$q$$, then they are isomorphic, but in order to do this we need some results about splitting fields that I will introduce in a later post.
 
-**Proposition 1:** If $\mathbb{F}_{q}$ is a finite field, with $q = p^k$ for some prime $p$, then the subfields of $\mathbb{F}_{q}$ are uniquely determined by the divisors of $k$, i.e., $\mathbb{K} \subseteq \mathbb{F}_q$ is a subfield if and only if $|\mathbb{K}| = p^e$ and $e \vert d$, and these subfields are unique.
+To end this post, we prove the following:
 
-**Proof:** First, we note that since any subfield of $\mathbb{F}_{q}$ is also an abelian subgroup, it follows that its order must be some power of $p$ -- simply by Lagrange's Theorem. Now if $\mathbb{K}$ is a subfield of $\mathbb{F}_{q}$ of order $p^d$, then $\mathbb{K}^* \leq \mathbb{F}_{q}^*$, hence again by Lagrange's Theorem it follows that 
+**Proposition 1:** If $\mathbb{F}_q$ is a finite field, with $q = p^k$ for some prime $p$, then the subfields of $\mathbb{F}_q$ are uniquely determined by the divisors of $k$, i.e., $\mathbb{K} \subseteq \mathbb{F}_q$ is a subfield if and only if $|\mathbb{K}| = p^e$ and $e \vert d$, and these subfields are unique.
 
-$$
-p^d - 1 = \vert \mathbb{K}^*\vert\vert \vert \mathbb{F}_{q}^* \vert = p^k - 1
-$$
-
-and since $p$ is a prime this implies that $d \vert k$. Now assume that $d \vert k$, and thus $p^d - 1 \vert p^k - 1$, since $\mathbb{F}_{q}^*$ is a cyclic group, there exists a unique subgroup $H$ of order $p^d - 1$, where of course $H$ is also cyclic, and since $H$ can be identified as
+**Proof:** First, we note that since any subfield of $\mathbb{F}_q$ is also an abelian subgroup, it follows that its order must be some power of $p$ -- simply by Lagrange's Theorem. Now if $\mathbb{K}$ is a subfield of $\mathbb{F}_q$ of order $p^d$, then $\mathbb{K}^* \leq \mathbb{F}_q^*$, hence again by Lagrange's Theorem it follows that 
 
 $$
-H = \{x \in \mathbb{F}_{q}^*|x^{p^d} = x\}
+p^d - 1 = \vert \mathbb{K}^*\vert\vert \vert \mathbb{F}_q^* \vert = p^k - 1
+$$
+
+and since $p$ is a prime this implies that $d \vert k$. Now assume that $d \vert k$, and thus $p^d - 1 \vert p^k - 1$, since $\mathbb{F}_q^*$ is a cyclic group, there exists a unique subgroup $H$ of order $p^d - 1$, where of course $H$ is also cyclic, and since $H$ can be identified as
+
+$$
+H = \{x \in \mathbb{F}_q^*|x^{p^d} = x\}
 $$
 
 it follows that $\mathbb{K} = \{0\} \cup H$ is a subfield of $\mathbb{F}_q$ with order $p^k$, where $d \vert k$, and the uniqueness of the subgroup implies that $\mathbb{K}$ is also unique. The facts together show that there are unique subfields of $\mathbb{F}_q$ for every $d \vert k$, and these are all of the possible subfields.
