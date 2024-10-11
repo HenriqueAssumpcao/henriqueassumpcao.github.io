@@ -186,7 +186,7 @@ We can also prove that if $$\mathbb{F}_1,\mathbb{F}_2$$ are fields of size $$q$$
 
 To end this post, we prove the following:
 
-**Proposition 1:** If $$\mathbb{F}_q$$ is a finite field, with $$q = p^k$$ for some prime $$p$$, then the subfields of $$\mathbb{F}_q$$ are uniquely determined by the divisors of $$k$$, i.e., $$\mathbb{K} \subseteq \mathbb{F}_q$$ is a subfield if and only if $$|\mathbb{K}| = p^e$$ and $$e \vert d$$, and these subfields are unique.
+**Proposition 1:** If $$\mathbb{F}_q$$ is a finite field, with $$q = p^k$$ for some prime $$p$$, then the subfields of $$\mathbb{F}_q$$ are uniquely determined by the divisors of $$k$$, i.e., $$\mathbb{K} \subseteq \mathbb{F}_q$$ is a subfield if and only if $$\vert\mathbb{K}\vert = p^e$$ and $$e \vert d$$, and these subfields are unique.
 
 **Proof:** First, we note that since any subfield of $$\mathbb{F}_q$$ is also an abelian subgroup, it follows that its order must be some power of $$p$$ -- simply by Lagrange's Theorem. Now if $$\mathbb{K}$$ is a subfield of $$\mathbb{F}_q$$ of order $$p^d$$, then $$\mathbb{K}^* \leq \mathbb{F}_q^*$$, hence again by Lagrange's Theorem it follows that 
 
