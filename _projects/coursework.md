@@ -2,8 +2,8 @@
 layout: page
 title: coursework
 description: list of courses I've taken over the years at UFMG (and a few extra ones from other places)
-img: assets/img/ufmg.png
-importance: 1
+img:
+importance: 2
 category:
 related_publications: false
 ---
