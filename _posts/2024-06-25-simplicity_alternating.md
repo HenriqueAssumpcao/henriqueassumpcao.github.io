@@ -73,7 +73,7 @@ for any $$f \in G_\alpha$$, and thus the claim follows. This shows that any late
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
 
-We can use the previous Lemma to show that $$S_n$$ is a maximal subgroup of $$S_{n+1}$$, and similarly that $$A_n$$ is a maximal subgroup of $$A_{n+1}$$. First, note that $$S_n$$ acts transitively on $$\{1,...,n\}$$, since we can take any element $$i$$ to some other element $$j$$ via the transposition $$(i,j)$$, and similarly $$A_n$$ is also transitive since we can take $$i$$ to $$j$$ via $$(i,k)(k,j)$$. Now if we consider any fixed element $$i \in \{1,...,n+1\}$$, then the stabilizer of this element in $$S_{n+1}$$ is a copy of $$S_n$$, hence it is transitive on $$\{1,...,n+1\} \setminus \{i\}$$, implying that $$S_{n+1}$$ is $$2$$-transitive, and thus $$S_n \leq S_{n+1}$$ is maximal. We can conclude that $$A_n \leq A_{n+1}$$ analogously.
+We can use the previous Lemma to show that $$S_n$$ is a maximal subgroup of $$S_{n+1}$$, and similarly that $$A_n$$ is a maximal subgroup of $$A_{n+1}$$. First, note that $$S_n$$ acts transitively on $$\{1,...,n\}$$, since we can take any element $$i$$ to some other element $$j$$ via the transposition $$(i,j)$$, and similarly $$A_n$$ is also transitive since we can take $$i$$ to $$j$$ via $$(i,k)(k,j)$$. Now if we consider any fixed element $$i \in \{1,...,n+1\}$$, then the stabilizer of this element in $$S_{n+1}$$ is a copy of $$S_n$$, hence it is transitive on $$\{1,...,n+1\} \setminus \{i\}$$, implying that $$S_{n+1}$$ is $$2$$-transitive, and thus $$S_n \leq S_{n+1}$$ is maximal. A similar argument shows that $$A_n$$ is maximal in $$A_{n+1}$$.
 
 ## Conjugacy classes and simplicity
 We are now ready to prove that $$A_n$$ is simple if $$n \geq 5$$. The strategy will be as follows: we start with showing that $$A_5$$ is simple, by analyzing its conjugacy classes and finding a contradiction with the existence of a normal proper non-trivial subgroup. We then proceed inductively on $$n$$, and use the previous results about transitivity to complete the proof.
@@ -86,8 +86,8 @@ First, [recall from the previous post](https://henriqueassumpcao.github.io/blog/
 | $$(2,1,1,1)$$       | $$(1,2)$$       |$$\langle (1,2),(3,4),(3,4,5)\rangle$$ | $$10$$       | $$12$$ |
 | $$(2,2,1)$$       | $$(1,2)(3,4)$$       |$$\langle (1,2),(1,3,2,4)\rangle$$ | $$15$$       | $$8$$ |
 | $$(3,1,1)$$       | $$(1,2,3)$$       |$$\langle (1,2,3),(4,5)\rangle$$ | $$20$$       | $$6$$|
-| $$(3,2)$$       | $$(1,2,3)(4,5)$$       |$$\langle (1,2,3),(4,5)\rangle$$ | $$20$$       | 6|
-| $$(4,1)$$       | $$(1,2,3,4)$$       |$$\langle (1,2,3,4)\rangle$$ | $$30$$       | 4|
+| $$(3,2)$$       | $$(1,2,3)(4,5)$$       |$$\langle (1,2,3),(4,5)\rangle$$ | $$20$$       | $$6$$|
+| $$(4,1)$$       | $$(1,2,3,4)$$       |$$\langle (1,2,3,4)\rangle$$ | $$30$$       | $$4$$|
 | $$(5)$$       | $$(1,2,3,4,5)$$       |$$\langle (1,2,3,4,5)\rangle$$ | $$24$$       | $$5$$|
 
 Now recall that $$A_5$$ contains only even permutations, hence the conjugacy classes corresponding to the partitions $$(2,1,1,1),(3,2),(4,1)$$ will have empty intersections with $$A_5$$. The centralizer of the class corresponding to $$(2,2,1)$$ is not contained in $$A_5$$, and thus the conjugacy class is also a class in $$A_5$$, and the same is true for $$(3,1,1)$$. The centralizer of $$(5)$$ on the other hand is contained in $$A_5$$, thus the class splits into two disjoint conjugacy classes in $$A_5$$. With these observations, we obtain the following table of the conjugacy classes of $$A_5$$:

@@ -83,7 +83,7 @@ $$
 The idea now is to show that $$p^{\nu_p(n!)}$$ appears in this denominator. By Legendre's formula, we have
 
 $$
-\nu_p(p^{\alpha}!) = \sum_{k\geq 1}\Big\lfloor\frac{p^{\alpha}}{p^k}\Big\rfloor\\
+\nu_p(p^{\alpha}!) = \sum_{k\geq 1}\Big\lfloor\frac{p^{\alpha}}{p^k}\Big\rfloor\quad\text{and}\quad
 \nu_p((n-p^{\alpha})!) = \sum_{k\geq 1}\Big\lfloor\frac{n-p^{\alpha}}{p^k}\Big\rfloor
 $$
 
