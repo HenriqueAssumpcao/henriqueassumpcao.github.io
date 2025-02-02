@@ -19,11 +19,11 @@ social: true # includes social icons at the bottom of the page
 bio: true
 ---
 
-Masters Student in Computer Science at [Universidade Federal de Minas Gerais](https://ufmg.br/)<br>
+Masters Student in Computer Science at [UFMG](https://ufmg.br/)<br>
 Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
 My c.v. can be found [here](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in february 2025)
 
-I'm coursing the first year of a Masters degree in Computer Science at UFMG, under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/). My research focus on combinatorial parameters of the Johnson Graphs, namely their coclique and chromatic numbers. I'm also currently working in a research project with [Inter Bank](https://inter.co/) on quantum algorithms for finance, focusing on developing novel methods for complex problems like portfolio optimization and fraud detection.
+I'm coursing the first year of a Masters degree in Computer Science at UFMG, under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/). My research focuses on combinatorial parameters of the Johnson Graphs, namely their coclique and chromatic numbers. I'm also currently working in a research project with [Inter Bank](https://inter.co/) on quantum algorithms for finance, focusing on developing novel methods for complex problems like portfolio optimization and fraud detection.
 
 From 2023 to 2024, I completed a minor in pure mathematics and also worked as an undergraduate researcher advised by Prof. Gabriel Coutinho, focusing on algebraic and spectral graph theory. 
 
