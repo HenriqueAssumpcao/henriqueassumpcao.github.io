@@ -133,10 +133,10 @@ $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 
 **Proof:**
 
-Let $$\nu_p(G) = \alpha$$, and consider $$F = \{ X \subseteq G:\vert X\vert = p^\alpha \}$$ as the set of all subsets of $$G$$ with cardinality precisely $$p^\alpha$$. Note that the cardinality of $$F$$ is given by
+Let $$\nu_p(n) = \alpha$$, and consider $$F = \{ X \subseteq G:\vert X\vert = p^\alpha \}$$ as the set of all subsets of $$G$$ with cardinality precisely $$p^\alpha$$, and note that the cardinality of $$F$$ is given by
 
 $$
-{n \choose p^\alpha}
+{n \choose p^\alpha}.
 $$
 
 We observe that $$G$$ acts on $$F$$ via right multiplication
@@ -145,31 +145,31 @@ $$
 g \in G,X \in F:Xg = \{xg:x \in X\}
 $$
 
-The orbits form a partition of $$F$$, and since by the previous Lemma we know that $$p$$ does not divide $$\vert F\vert$$, it follows that there must be some orbit $$GX$$ s.t. $$p$$ does not divide $$\vert GX\vert$$. Let $$G_X$$ denote the stabilizer of $$X$$ w.r.t. $$G$$, and this subgroup will be our candidate for a Sylow $$p$$-subgroup of $$G$$. By the Orbit-Stabilizer theorem we have
+The orbits form a partition of $$F$$, and since by the previous Lemma we know that $$p$$ does not divide $$\vert F\vert$$, it follows that there must be some orbit $$GX$$ s.t. $$p$$ does not divide $$\vert GX\vert$$. Let $$H = G_X$$ denote the stabilizer of $$X$$ w.r.t. $$G$$, and this subgroup will be our candidate for a Sylow $$p$$-subgroup of $$G$$. By the Orbit-Stabilizer theorem we have
 
 $$
-\vert G\vert = \vert GX\vert \vert G_X\vert
+\vert G\vert = \vert GX\vert \vert G_X\vert.
 $$
 
-Since by definition $$p^\alpha$$ divides $$\vert G\vert$$ and since $$p$$ does note divide $$\vert GX\vert$$, it follows that $$p^\alpha$$ divides $$\vert G_X\vert$$, hence $$p^\alpha \leq \vert G_X\vert$$. Now in order to prove the other direction, we observe that $$G_X$$ acts on $$X$$ via right multiplication since $$G_X \leq G$$, and if $$x \in X$$, the the stabilizer of $$x$$ w.r.t. to $$G_X$$ is
+Since by definition $$p^\alpha$$ divides $$\vert G\vert$$ and since $$p$$ does note divide $$\vert GX\vert$$, it follows that $$p^\alpha$$ divides $$\vert H\vert$$, hence $$p^\alpha \leq \vert H\vert$$. Now in order to prove the upper bound, we observe that $$H$$ acts on $$X$$ via right multiplication since $$H \leq G$$, and if $$x \in X$$, the the stabilizer of $$x$$ w.r.t. to $$H$$ is
 
 $$
-(G_X)_x = \{g \in G_X:xg = x\} = \{1\}
+H_x = \{g \in H:xg = x\} = \{1\},
 $$
 
-hence again by the Orbit-Stabilizer theorem we have
+since both $$x,g \in G$$, hence again by the Orbit-Stabilizer theorem we have
 
 $$
-\vert G_X\vert  = \vert G_Xx\vert \vert (G_X)_x\vert  = \vert G_Xx\vert 
+\vert H\vert  = \vert Hx\vert \vert H_x\vert  = \vert Hx\vert 
 $$
 
-however note that $$X$$ is partitioned by the orbits $$G_Xx$$, hence $$\vert G_Xx\vert  \leq \vert X\vert  = p^\alpha$$, thus
+however note that $$X$$ is partitioned by the orbits $$Hx$$, hence $$\vert Hx\vert  \leq \vert X\vert  = p^\alpha$$, thus
 
 $$
-\vert G_X\vert  = \vert G_Xx\vert  \leq p^\alpha
+\vert H\vert  = \vert Hx\vert  \leq p^\alpha
 $$
 
-implying that $$\vert G_X\vert  = p^\alpha$$, as desired.
+implying that $$\vert H\vert  = p^\alpha$$, as desired.
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
 
@@ -187,7 +187,7 @@ $$
 K^G = C_1 \sqcup C_2 \sqcup\ldots\sqcup C_m
 $$
 
-Again by the Orbit-Stabilizer theorem, we know that $$\vert C_i\vert $$ must divide $$\vert Q\vert  = p^\alpha$$, thus $$\vert C_i\vert  = \beta_i$$ for some $$\beta_i \geq 0$$, thus
+Again by the Orbit-Stabilizer theorem, we know that $$\vert C_i\vert $$ must divide $$\vert Q\vert  = p^\alpha$$, thus $$\vert C_i\vert  = p^{\beta_I}$$ for some $$\beta_i \geq 0$$, hence
 
 $$
 \vert K^G\vert  = p^{\beta_1} + ... + p^{\beta_m}
