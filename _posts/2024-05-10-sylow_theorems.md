@@ -175,31 +175,19 @@ $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 
 **Theorem (Second Sylow theorem):** If $$G$$ is a finite group of order $$n$$, and $$p$$ be a prime, then if $$P,Q$$ are Sylow $$p$$-subgroups, then $$P$$ and $$Q$$ are conjugate, i.e., there exists some $$g \in G$$ such that $$Q = P^g = \{gxg^{-1}\vert x \in P\}$$.
 
-**Proof:** Again let $$\nu_p(n) = \alpha$$, and let $$P^G = \{P^g\vert g \in G\}$$ be the orbit of $$P$$ w.r.t. the action of $$G$$ via conjugation on the set of all of its subgroups. $$G$$ acts on $$P^G$$ via conjugation, hence if we fix $$K = P^g$$ for some $$g \in G$$, we get via the Orbit-Stabilizer theorem we have
+**Proof:** Again let $$\nu_p(n) = \alpha$$, and let $$P^G = \{P^g\vert g \in G\}$$ be the orbit of $$P$$ w.r.t. the action of $$G$$ via conjugation on the set of all of its subgroups. The Orbit-Stabilizer theorem gives us
 
 $$
-\vert G\vert  = \vert K^G\vert \vert N_G(K)\vert 
+\vert G \vert = \vert P^G \vert \vert N_G(P) \vert,
 $$
 
-where $$N_G(K) = \{h \in G:(K)^h = K\}$$ is the normalizer of $$K$$ in $$G$$, and clearly $$K \leq N_G(K)$$. Since $$K$$ is conjugate to $$P$$, it follows that it is a Sylow $$p$$-group, and it also is a subgroup of its normalizer, thus by Lagrange's theorem we conclude that $$p^\alpha$$ divides $$\vert N_G(K)\vert $$. Since this is the largest power of $$p$$ that divides $$\vert G\vert $$, it follows that $$p$$ does not divide $$\vert K^G\vert $$. On the other hand, we also know that $$Q$$ acts on $$K^G$$ via conjugation, so let $$C_1,...,C_m$$ be the orbits of such action, hence
+where $$N_G(P)$$ is the normalizer of $$P$$ in $$G$$, and since $$P \leq N_G(P)$$, it follows that $$p^\alpha$$ divides $$\vert N_G(P) \vert$$, implying that $$p$$ does not divide $$\vert P^G \vert $$. On the other hand, $$Q$$ acts on $$P^G$$ via conjugation, thus if $$C_1,...,C_r$$ are the orbits of this action, again by the Ortbit-Stabilizer theorem w.r.t. $$Q$$ we get that $$|C_i| = p^{a_i}$$, for some $$a_i \geq 0$$. But since these orbits partition $$P^G$$ and $$p$$ does not divide $$\vert P^G \vert$$, we must have some orbit $$C_i = \{K\}$$ with size one, with $$K \in P^G$$. By definition, this means that $$Q \leq N_G(K)$$, and thus $$KQ$$ is a subgroup of $$G$$, with order given by
 
 $$
-K^G = C_1 \sqcup C_2 \sqcup\ldots\sqcup C_m
+\vert KQ \vert = \frac{\vert K \vert \vert Q \vert}{\vert K \cap Q \vert} = p^\alpha,
 $$
 
-Again by the Orbit-Stabilizer theorem, we know that $$\vert C_i\vert $$ must divide $$\vert Q\vert  = p^\alpha$$, thus $$\vert C_i\vert  = p^{\beta_I}$$ for some $$\beta_i \geq 0$$, hence
-
-$$
-\vert K^G\vert  = p^{\beta_1} + ... + p^{\beta_m}
-$$
-
-but since $$p$$ does not divide $$\vert K^G\vert $$, this means that there is some $$i$$ s.t. $$\beta_i = 0$$, i.e., $$\vert C_i\vert  = 1$$, implying that $$C_i = \{K^{f}\}$$ for some $$f \in G$$ such that $$(K^{f})^h = K^{f}$$ for any $$h \in Q$$, i.e., $$Q \leq N_G(K^{f})$$. This means that $$Q$$ normalizes $$K$$, and thus $$KQ$$ is a subgroup of $$G$$ with order
-
-$$
-\vert KQ\vert  = \frac{\vert K\vert \vert Q\vert }{\vert K \cap Q\vert } = \frac{p^\alpha p^\alpha}{\vert K \cap Q\vert }
-$$
-
-but since $$KQ \leq G$$ and $$\vert KQ\vert $$ divides $$G$$, this means that $$\vert KQ\vert  \leq p^\alpha$$, implying that $$\vert K \cap Q\vert $$ must be a multiple of $$p^\alpha$$, but since both $$K$$ and $$Q$$ are Sylow $$p$$-groups, this implies that $$\vert K \cap Q\vert  = p^\alpha = \vert K\vert  = \vert Q\vert $$, hence $$K=Q$$. Since $$K = P^g$$, this implies that $$Q$$ and $$P$$ are conjugate, which concludes the proof.
+where the last equality follows since $$p^\alpha$$ is the largest power of $$p$$ that divides $$n$$, and since $$KQ$$ is a subgroup, i.e., $$K \cap Q = K = Q$$, which concludes the proof.
 
 $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$$
 
