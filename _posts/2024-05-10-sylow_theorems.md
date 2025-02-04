@@ -175,7 +175,7 @@ $$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 
 **Theorem (Second Sylow theorem):** If $$G$$ is a finite group of order $$n$$, and $$p$$ be a prime, then if $$P,Q$$ are Sylow $$p$$-subgroups, then $$P$$ and $$Q$$ are conjugate, i.e., there exists some $$g \in G$$ such that $$Q = P^g = \{gxg^{-1}\vert x \in P\}$$.
 
-**Proof:** Again let $$\nu_p(G) = \alpha$$, and let $$P^G = \{P^g\vert g \in G\}$$ be the orbit of $$P$$ w.r.t. the action of $$G$$ via conjugation on the set of all of its subgroups. $$G$$ acts on $$P^G$$ via conjugation, hence if we fix $$K = P^g$$ for some $$g \in G$$, we get via the Orbit-Stabilizer theorem we have
+**Proof:** Again let $$\nu_p(n) = \alpha$$, and let $$P^G = \{P^g\vert g \in G\}$$ be the orbit of $$P$$ w.r.t. the action of $$G$$ via conjugation on the set of all of its subgroups. $$G$$ acts on $$P^G$$ via conjugation, hence if we fix $$K = P^g$$ for some $$g \in G$$, we get via the Orbit-Stabilizer theorem we have
 
 $$
 \vert G\vert  = \vert K^G\vert \vert N_G(K)\vert 
