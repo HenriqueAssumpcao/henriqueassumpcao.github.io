@@ -181,7 +181,7 @@ $$
 \vert G \vert = \vert P^G \vert \vert N_G(P) \vert,
 $$
 
-where $$N_G(P)$$ is the normalizer of $$P$$ in $$G$$, and since $$P \leq N_G(P)$$, it follows that $$p^\alpha$$ divides $$\vert N_G(P) \vert$$, implying that $$p$$ does not divide $$\vert P^G \vert $$. On the other hand, $$Q$$ acts on $$P^G$$ via conjugation, thus if $$C_1,...,C_r$$ are the orbits of this action, again by the Ortbit-Stabilizer theorem w.r.t. $$Q$$ we get that $$|C_i| = p^{a_i}$$, for some $$a_i \geq 0$$. But since these orbits partition $$P^G$$ and $$p$$ does not divide $$\vert P^G \vert$$, we must have some orbit $$C_i = \{K\}$$ with size one, with $$K \in P^G$$. By definition, this means that $$Q \leq N_G(K)$$, and thus $$KQ$$ is a subgroup of $$G$$, with order given by
+where $$N_G(P)$$ is the normalizer of $$P$$ in $$G$$, and since $$P \leq N_G(P)$$, it follows that $$p^\alpha$$ divides $$\vert N_G(P) \vert$$, implying that $$p$$ does not divide $$\vert P^G \vert $$. On the other hand, $$Q$$ acts on $$P^G$$ via conjugation, thus if $$C_1,...,C_r$$ are the orbits of this action, again by the Ortbit-Stabilizer theorem w.r.t. $$Q$$ we get that $$\vert C_i \vert = p^{a_i}$$, for some $$a_i \geq 0$$. But since these orbits partition $$P^G$$ and $$p$$ does not divide $$\vert P^G \vert$$, we must have some orbit $$C_i = \{K\}$$ with size one, with $$K \in P^G$$. By definition, this means that $$Q \leq N_G(K)$$, and thus $$KQ$$ is a subgroup of $$G$$, with order given by
 
 $$
 \vert KQ \vert = \frac{\vert K \vert \vert Q \vert}{\vert K \cap Q \vert} = p^\alpha,
