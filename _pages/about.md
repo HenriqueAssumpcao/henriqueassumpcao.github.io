@@ -25,7 +25,7 @@ Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
 
 I'm coursing the first year of a Masters degree in Computer Science at UFMG, under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/). My research is on combinatorial parameters of the Johnson Graphs, namely their coclique and chromatic numbers. I'm also currently working in a research project with [Inter Bank](https://inter.co/) on quantum algorithms for finance, aiming to develop methods for complex problems like portfolio optimization and fraud detection.
 
-At the beginning of 2025, I finished my Bachelor's degree in computer science at UFMG. My undergraduate thesis focuses on semisimple algebras and their applications to combinatorics and optimization, with an emphasis on the Artin-Wedderburn theorems and distance-regular graphs. The following contain links for the original [Portuguese version](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/) and the
+In the beginning of 2025, I finished my B.S. degree in computer science at UFMG. My undergraduate thesis focuses on semisimple algebras and their applications to combinatorics and optimization, with an emphasis on the Artin-Wedderburn theorems and distance-regular graphs. The following contain links for the original [Portuguese version](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/) and the
 [English version](../assets/pdf/undergrad_thesis.pdf).
 
 In 2023 and 2024, I completed a minor in pure mathematics and also worked as an undergraduate researcher advised by Prof. Gabriel Coutinho, researching algebraic and spectral graph theory.
