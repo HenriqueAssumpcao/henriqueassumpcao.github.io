@@ -30,5 +30,3 @@ In the beginning of 2025, I finished my B.S. degree in computer science at UFMG.
 In 2023 and 2024, I completed a minor in pure mathematics and also worked as an undergraduate researcher advised by Prof. Gabriel Coutinho, researching algebraic and spectral graph theory.
 
 From 2020 to 2022 I worked on multiple projects related to machine learning and data science, with an emphasis on language models and graph neural networks, under the supervision of [Prof. Fabricio Murai](https://murai.dcc.ufmg.br/). During this period, I also worked in a research project with Inter Bank on money laundering detection, and by the end of that year I presented our findings at the IEEE BigData 2022 conference, in Osaka, Japan.
-
-For the past years, I've also been deeply interested in learning subjects from pure mathematics, such as Abstract Algebra, Graph Theory, Linear Algebra, Real Analysis, Topology and Functional Analysis. I intend to make posts related to these subjects in the [blog](https://henriqueassumpcao.github.io/blog/) section of this website.
