@@ -123,7 +123,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: journal # blog_name will be displayed in your blog page
-blog_description: what's on my mind lately
+blog_description: posts I made while taking undergrad maths courses
 permalink: /blog/:year/:title/
 
 # Pagination
