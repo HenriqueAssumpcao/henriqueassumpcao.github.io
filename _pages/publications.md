@@ -6,13 +6,6 @@ description:
 nav: true
 nav_order: 1
 ---
-<!-- _pages/publications.md -->
-<!-- <div class="publications">
-
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
-</div> -->
-
 # Papers
 
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**  
