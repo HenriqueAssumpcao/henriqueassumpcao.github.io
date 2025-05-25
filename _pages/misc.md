@@ -4,7 +4,7 @@ title: misc
 permalink: /misc/
 description: projects and other information that didn't fit anywhere else.
 nav: true
-nav_order: 4
+nav_order: 3
 display_categories: 
 horizontal: false
 ---
