@@ -122,8 +122,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: journal # blog_name will be displayed in your blog page
-blog_description: posts I made while taking undergrad maths courses
+blog_name: blog # blog_name will be displayed in your blog page
+blog_description: made these during my minor in pure maths 
 permalink: /blog/:year/:title/
 
 # Pagination

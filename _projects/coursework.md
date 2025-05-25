@@ -30,14 +30,12 @@ Courses marked with "(grad)" mean that they are graduate-level courses, whereas 
   + Bibliography: [Prof. Rodney's Lecture Notes](http://150.164.25.15/~rodney/notas_de_aula/algebraLinear.pdf), [Prof. Csaba's Lecture Notes](https://schcs.github.io/WP/index.php/ensino/algebra-linear-ii/), Axler's *Linear Algebra Done Right*.
 * Quantum Computing (2023/1) (grad)
   + Introduction to quantum mechanics, qubits, quantum states, quantum entanglement, quantum information, quantum circuits, Shor's algorithm, Grover's algorithm, contextuality, applications to graph theory. Students were asked to present a seminar and write a survey related to specific fields within QC;
-  + The seminar I presented in this class can be found [here](https://henriqueassumpcao.github.io/projects/seminars/)
   + Bibliography: Nielsen and Chuang's *Quantum Computation and Quantum Information*.
 * Rings and Modules (2023/2)
   + Introduction to rings, ideals and quotients of rings, ring homomorphisms, integral domains, rings of polynomials of one or more variables, introduction to modules over a ring, direct sums, module homomorphisms, noerthian and arthinian modules;
   + Bibliography: Lecture Notes by Prof. Ana Cristina Vieira, Gallian's *Contemporary Abstract Algebra*.
 * Advanced Seminars in Mathematical Aspects of Deep Learning (2023/2) (grad)
   + This course consists of a series of seminars in mathematical aspects of deep learning. The covered aspects are: introduction to functional analysis, approximation theorems for neural networks, exact learning, vc-dimension, information theory for neural networks, output manifold of a neural network, statistical manifolds and optimization, universal approximation theorem, spectral clustering, dimensionality reduction;
-  + My seminar can be found [here](https://henriqueassumpcao.github.io/projects/seminars/).
 * Groups and Fields (2024/1)
   + Groups, normal subgroups, homomorphisms, products and quotients of groups, group actions and the orbit-stabilizer theorem, conjugacy classes and the simplicity of the alternating group, sylow theorems, abelian groups, solvable groups, free groups, field extensions, splitting fields and finite fields, normal and separable extensions, the Galois group and Galois extensions, the fundamental theorem of Galois theory, Galois correspondence and Abel-Ruffini's theorem;
   + Bibliography: [Prof. Csaba's Lecture Notes](https://schcs.github.io/WP/index.php/ensino/grupos-e-corpos/), Gallian's *Contemporary Abstract Algebra*, Martins and Tengan's *Álgebra Exemplar*.
@@ -46,7 +44,6 @@ Courses marked with "(grad)" mean that they are graduate-level courses, whereas 
   + Bibliography: Munkre's *Topology: A first course*, Bredon's *Topology and Geometry*.
 * Semidefinite Programming on Graphs (2024/1) (grad)
   + Orthogonal representations of graphs, strong duality for linear and conic programs, Lovász's theta function, unitary representations, Goemans-Williamson's formulation for maxcut, perfect graphs and polytopes, gauge duality, copositive formulations for optimization problems, Hazan's algorithm for solving SDPs;
-  + I presented a seminar about gauge duality and maxcut at the end of this course, and it can be found [here](https://henriqueassumpcao.github.io/assets/pdf/GaugeDuality_and_Maxcut.pdf);
   + Bibliography: Lovász's *Graphs and Geometry*, Laurent and Vallentin's *Semidefinite Optimization*, [Prof. Coutinho's Lecture Notes](https://homepages.dcc.ufmg.br/~gabriel/assets/files/coutinho-sdpnotes-ufmg.pdf).
 * Competitive programming (2025/1) (grad)
   + Dynamic programming, network flows, meet in the midle, number theory and fast exponentiation, computational geometry, segment trees, heavy light decomposition;
