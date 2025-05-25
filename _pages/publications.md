@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: 
+title: research
 description: 
 nav: true
 nav_order: 1
@@ -23,12 +23,6 @@ nav_order: 1
    *Future Generation Computer Systems*, Volume 125, Pages 641-651, 2021  
    [DOI](https://doi.org/10.1016/j.future.2021.07.014) | [arXiv](https://arxiv.org/abs/2005.07473)
 
-## Theses
-
-* **Álgebras, grupos e grafos**  
-   *Henrique Assumpção*  
-   *Undergraduate Thesis, Universidade Federal de Minas Gerais*, 2024  
-   [PTBR](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/) | [EN](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)
 
 ## Conferences
 
@@ -42,6 +36,7 @@ Homogeneous Coherent Configurations](https://henriqueassumpcao.github.io/assets/
 * [**IEEE BigData 2022**](https://bigdataieee.org/BigData2022/)           
 *Paper presentation:* [Money Laundering detection using Graph Neural Networks](https://henriqueassumpcao.github.io/assets/pdf/DELATOR_SLIDES_IEEE.pdf)
 
+
 ## Seminars
 * **[Distance-regular graphs and Association schemes](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**   
 *Algebraic Graph Theory Seminar*, UFMG, 2024
@@ -54,4 +49,12 @@ Homogeneous Coherent Configurations](https://henriqueassumpcao.github.io/assets/
 
 * **[Quantum Random Number Generation](https://henriqueassumpcao.github.io/assets/pdf/qrng_slides.pdf)**   
 *Quantum Computing Seminar*, UFMG, 2023
+
+
+## Theses
+
+* **Álgebras, grupos e grafos**  
+   *Henrique Assumpção*  
+   *Undergraduate Thesis, Universidade Federal de Minas Gerais*, 2024  
+   [PTBR](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/) | [EN](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)
 

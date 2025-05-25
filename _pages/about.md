@@ -21,7 +21,7 @@ bio: true
 
 Masters Student in Computer Science at [UFMG](https://ufmg.br/)<br>
 Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
-[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in march 2025)
+[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in June 2025)
 
 I'm currently a Masters sudent in Computer Science at UFMG, under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
 
