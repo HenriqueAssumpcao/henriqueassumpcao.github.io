@@ -123,7 +123,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: blog # blog_name will be displayed in your blog page
-blog_description: some things I wrote while taking some maths courses (mainly algebra)
+blog_description: things I wrote while taking some maths courses (mostly algebra)
 permalink: /blog/:year/:title/
 
 # Pagination
