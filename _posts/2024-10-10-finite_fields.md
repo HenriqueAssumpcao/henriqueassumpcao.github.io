@@ -143,6 +143,7 @@ $$
 \Phi(x) &= x^p,
 \end{split}
 $$
+
 where $$p$$ is the characteristic of our finite field $$\mathbb{F}_q$$. Our claim is that this map is a field automorphism. Indeed, we first note that $$\Phi(xy) = \Phi(x)\Phi(y),\Phi(1) = 1$$ and that
 
 $$
