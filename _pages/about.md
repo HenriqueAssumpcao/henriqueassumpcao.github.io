@@ -26,5 +26,3 @@ Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
 I'm currently a Machine Learning researcher at [Inter](https://inter.co/). I'm also a Masters student in Computer Science at [UFMG](https://ufmg.br/), under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
 
 My [research](https://henriqueassumpcao.github.io/research/) is on two main topics: machine learning and graph theory. At Inter, I work mainly on representation learning for large transaction networks, language models and recommender systems. At UFMG, I study algebraic graph theory, focusing on association schemes, distance-regular graphs and semidefinite optimization.
-
-<!-- My [Erdős Number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3 (Paul Erdős -> Chris Godsil -> Gabriel Coutinho -> Henrique Assumpção). -->
