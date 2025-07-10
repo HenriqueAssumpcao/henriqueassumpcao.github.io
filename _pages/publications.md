@@ -16,7 +16,7 @@ nav_order: 1
 2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
    *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*  
    *2022 IEEE International Conference on Big Data (Big Data)*, Pages 709-714, 2022  
-   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](10.1109/BigData55660.2022.10021010) 
+   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
 
 1\. **Predicting user emotional tone in mental disorder online communities**  
    *Bárbara Silveira, Henrique S. Silva, Fabricio Murai, Ana Paula C. da Silva*  
