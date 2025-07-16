@@ -21,7 +21,7 @@ bio: true
 
 Computer Scientist<br>
 Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
-[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in June 2025)
+[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in July 2025)
 
 I'm currently a Machine Learning researcher at [Inter](https://inter.co/). I'm also a Masters student in Computer Science at [UFMG](https://ufmg.br/), under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
 
