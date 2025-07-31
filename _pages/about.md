@@ -20,6 +20,8 @@ Computer Scientist<br>
 Email: henriquesoares[at]dcc[dot]ufmg[dot]br<br>
 [C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in July 2025)
 
-I'm currently a Machine Learning researcher at [Inter](https://inter.co/). I'm also a Masters student in Computer Science at [UFMG](https://ufmg.br/), under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
+I'm a Machine Learning researcher at [Inter](https://inter.co/) and a Master's student in Computer Science at [UFMG](https://ufmg.br/), advised by [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
 
-My [research](https://henriqueassumpcao.github.io/research/) is on two main topics: machine learning and graph theory. At Inter, I work mainly on representation learning for large transaction networks, language models and recommender systems. At UFMG, I study algebraic graph theory, focusing on association schemes, distance-regular graphs and semidefinite optimization.
+My [research](https://henriqueassumpcao.github.io/research/) interests include machine learning and graph theory. At Inter, I work mainly on representation learning for large transaction networks, language models and recommender systems. At UFMG, I study algebraic graph theory, focusing on association schemes and distance-regular graphs.
+
+During my undergraduate studies, I was extremely fortunate to work under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/) studying graph neural networks and NLP, and by Prof. Gabriel Coutinho, studying spectral and algebraic graph theory.
