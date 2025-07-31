@@ -24,4 +24,4 @@ I'm a Machine Learning researcher at [Inter](https://inter.co/) and a Master's s
 
 My [research](https://henriqueassumpcao.github.io/research/) interests include machine learning and graph theory. At Inter, I work mainly on representation learning for large transaction networks, language models and recommender systems. At UFMG, I study algebraic graph theory, focusing on association schemes and distance-regular graphs.
 
-During my undergraduate studies, I was extremely fortunate to work under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/) studying graph neural networks and NLP, and by Prof. Gabriel Coutinho, studying spectral and algebraic graph theory.
+Previously, I was fortunate to be supervised by Prof. Gabriel Coutinho during my undergraduate studies of spectral and algebraic graph theory. I was also extremely fortunate to work under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/) as an undergraduate researcher in machine learning and NLP.
