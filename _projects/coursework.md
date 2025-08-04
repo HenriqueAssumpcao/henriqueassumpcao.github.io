@@ -47,7 +47,7 @@ Courses marked with "(grad)" mean that they are graduate-level courses, whereas 
   + Bibliography: Lovász's *Graphs and Geometry*, Laurent and Vallentin's *Semidefinite Optimization*, [Prof. Coutinho's Lecture Notes](https://homepages.dcc.ufmg.br/~gabriel/assets/files/coutinho-sdpnotes-ufmg.pdf).
 * Competitive programming (2025/1) (grad)
   + Dynamic programming, network flows, meet in the midle, number theory and fast exponentiation, computational geometry, segment trees, heavy light decomposition;
-  + My solutions to many CP problems can be found [here](https://github.com/HenriqueAssumpcao/cpplib);
+  + My implementations of many classical CP problems can be found here [here](https://github.com/HenriqueAssumpcao/cpplib);
   + Bibliography: Halim's *Competitive Programming 3*.
 
 ## Courses taken elsewhere
