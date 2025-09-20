@@ -27,7 +27,7 @@ nav_order: 1
 ## Conferences
 
 * [**CNMAC 2025**](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2025/)     
-*Invited talk:* [Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs](https://arxiv.org/abs/2505.10548)
+*Invited talk:* [MAXCUT, Association Schemes and Semidefinite Programs](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)
 
 * [**CNMAC 2024**](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2024/)     
 *Poster:* [Primal-dual inequalities for the approximate maximum-cut value of Graphs in
