@@ -7,14 +7,14 @@ nav: true
 nav_order: 1
 ---
 ## Papers
-### Submitted
+#### Submitted
 
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**  
    *Henrique Assumpção and Gabriel Coutinho*.  
    *Submitted*, 2025.  
    [arXiv](https://arxiv.org/abs/2505.10548)
 
-### Published
+#### Published
 2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
    *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.  
    *2022 IEEE International Conference on Big Data (Big Data)*, Pages 709-714, 2022.  
