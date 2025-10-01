@@ -24,37 +24,36 @@ nav_order: 1
    [arXiv](https://arxiv.org/abs/2005.07473) | [DOI](https://doi.org/10.1016/j.future.2021.07.014)
 
 
-## Conferences
+## Conferences and workshops
 
-* [**CNMAC 2025**](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2025/)     
-*Invited talk:* [MAXCUT, Association Schemes and Semidefinite Programs](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)
+* [**MAXCUT, Association Schemes and Semidefinite Programs**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)  
+Invited talk. [CNMAC 2025](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2025/). Rio de Janeiro, Brasil.
 
-* [**CNMAC 2024**](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2024/)     
-*Poster:* [Primal-dual inequalities for the approximate maximum-cut value of Graphs in
-Homogeneous Coherent Configurations](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_POSTER.pdf)
+* [**Primal-dual inequalities for the approximate maximum-cut value of Graphs in
+Homogeneous Coherent Configurations**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_POSTER.pdf)                                        
+Poster presentation. [CNMAC 2024](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2024/). Porto de Galinhas, Brasil.
 
-* [**IEEE BigData 2022**](https://bigdataieee.org/BigData2022/)           
-*Paper presentation:* [Money Laundering detection using Graph Neural Networks](https://henriqueassumpcao.github.io/assets/pdf/DELATOR_SLIDES_IEEE.pdf)
-
+* [**DELATOR: Money Laundering Detection via Multi-Task Learning on
+Large Transaction Graphs**](https://henriqueassumpcao.github.io/assets/pdf/DELATOR_SLIDES_IEEE.pdf)   
+Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
 * **[Distance-regular graphs and Association schemes](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**   
-*Algebraic Graph Theory Seminar*, UFMG, 2024
+*Algebraic Graph Theory Seminar*, UFMG, 2024.
 
 * **[Gauge Duality and MAXCUT](https://henriqueassumpcao.github.io/assets/pdf/GaugeDuality_and_Maxcut.pdf)**   
-*Semidefinite Optimization Seminar*, UFMG, 2024
+*Semidefinite Optimization Seminar*, UFMG, 2024.
 
 * **[Functional Analysis and Universal Approximation](https://drive.google.com/drive/u/1/folders/1AlaN2gyuSPyIgcIktM95C292D1FRuqDg)**   
-*Mathematical aspects of Deep Learning Seminar*, UFMG, 2023
+*Mathematical aspects of Deep Learning Seminar*, UFMG, 2023.
 
 * **[Quantum Random Number Generation](https://henriqueassumpcao.github.io/assets/pdf/qrng_slides.pdf)**   
-*Quantum Computing Seminar*, UFMG, 2023
+*Quantum Computing Seminar*, UFMG, 2023.
 
 
 ## Theses
 
-* **Álgebras, grupos e grafos**  
-   *Henrique Assumpção*  
-   *Undergraduate Thesis, Universidade Federal de Minas Gerais*, 2024  
-   [PTBR](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/) | [EN](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)
+* [**Álgebras, grupos e grafos**](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)   
+   *Undergraduate Thesis*, Universidade Federal de Minas Gerais, 2024.  
+   Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/)               
 
