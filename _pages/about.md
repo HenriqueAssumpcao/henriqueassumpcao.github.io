@@ -17,8 +17,10 @@ bio: true
 ---
 
 Computer Scientist<br>
-Email: henriquesoares[at]dcc[dot]ufmg[dot]br | henrique.soares[at]inter[dot]co<br>
 [C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in July 2025)<br>
+Contact:<br>
+henriquesoares[at]dcc[dot]ufmg[dot]br<br>
+henrique[dot]soares[at]inter[dot]co<br>
 
 I'm a Machine Learning researcher at [Inter](https://inter.co/) and a Master's student in Computer Science at [UFMG](https://ufmg.br/), advised by [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/). I'm also a member of [VEQTOR](https://www.veqtor.dcc.ufmg.br/) and [T-REX](https://trex.dcc.ufmg.br/).
 
