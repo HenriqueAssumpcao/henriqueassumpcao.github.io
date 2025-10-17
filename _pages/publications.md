@@ -7,6 +7,13 @@ nav: true
 nav_order: 1
 ---
 ## Papers
+#### Preprints
+
+4\. **CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
+   *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
+   *Preprint*, 2025.<br>
+   [arXiv](https://arxiv.org/abs/2510.14150)
+
 #### Submitted
 
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
