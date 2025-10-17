@@ -7,21 +7,16 @@ nav: true
 nav_order: 1
 ---
 ## Papers
-#### Preprints
-
 4\. **CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
    *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
    *Preprint*, 2025.<br>
    [arXiv](https://arxiv.org/abs/2510.14150)
-
-#### Submitted
 
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
    *Submitted*, 2025.<br>
    [arXiv](https://arxiv.org/abs/2505.10548)
 
-#### Published
 2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
    *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
    *2022 IEEE International Conference on Big Data (Big Data)*, Pages 709-714, 2022.<br>
