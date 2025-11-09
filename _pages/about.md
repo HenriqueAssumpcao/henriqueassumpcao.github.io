@@ -25,6 +25,6 @@ My [research](https://henriqueassumpcao.github.io/research/) interests include m
 
 Previously, I was fortunate to be supervised by Prof. Gabriel Coutinho as an undergraduate researcher in spectral and algebraic graph theory. I was also extremely fortunate to work under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/), focusing on graph neural networks and NLP.
 
-Feel free to contact me via any of the emails below:<br>
+Feel free to contact me via any of the emails listed below:<br>
 henriquesoares[at]dcc[dot]ufmg[dot]br<br>
 henrique[dot]soares[at]inter[dot]co<br>
