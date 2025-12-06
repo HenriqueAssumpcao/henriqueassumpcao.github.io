@@ -17,7 +17,7 @@ bio: true
 ---
 
 Computer Scientist<br>
-[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in July 2025)<br>
+[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in December 2025)<br>
 
 I'm a Machine Learning researcher at [Inter](https://inter.co/) and a Master's student in Computer Science at [UFMG](https://ufmg.br/), advised by [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
 
