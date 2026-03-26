@@ -17,9 +17,9 @@ bio: true
 ---
 
 Computer Scientist<br>
-[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in December 2025)<br>
+[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in March 2026)<br>
 
-I'm a Machine Learning researcher at [Inter](https://inter.co/) and a Master's student in Computer Science at [UFMG](https://ufmg.br/), advised by [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
+I'm a Machine Learning Research Scientist at [Inter](https://inter.co/) and a Master's student in Computer Science at [UFMG](https://ufmg.br/), advised by [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/) and [Prof. Csaba Schneider](https://schcs.github.io/WP/).
 
 My [research](https://henriqueassumpcao.github.io/research/) interests include machine learning and graph theory. At Inter, I work mainly on representation learning for large transaction networks, language models and recommender systems. At UFMG, I study algebraic graph theory, with an emphasis on distance-regular graphs and association schemes.
 
