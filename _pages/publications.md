@@ -29,6 +29,8 @@ nav_order: 1
 
 
 ## Conferences
+* [**Semidefinite programming bounds on fractional cut-cover and MAX 2-SAT for highly regular graphs.**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)<br>
+Contributed talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
 
 * [**MAXCUT, Association Schemes and Semidefinite Programs**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)<br>
 Invited talk. [CNMAC 2025](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2025/). Rio de Janeiro, Brasil.
@@ -41,6 +43,9 @@ Large Transaction Graphs**](https://henriqueassumpcao.github.io/assets/pdf/DELAT
 Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
+* **[Johnson Graphs and Coding Theory](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**<br>
+*Algebraic Graph Theory Seminar*, UFMG, 2026.
+
 * **[Distance-regular graphs and Association schemes](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**<br>
 *Algebraic Graph Theory Seminar*, UFMG, 2024.
 
