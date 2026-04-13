@@ -14,7 +14,7 @@ nav_order: 1
 
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
-   *Submitted*, 2025.<br>
+   Under revision at *Mathematics of Operations Research*, 2025.<br>
    [arXiv](https://arxiv.org/abs/2505.10548)
 
 2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
@@ -29,8 +29,11 @@ nav_order: 1
 
 
 ## Conferences
-* [**Semidefinite programming bounds on fractional cut-cover and MAX 2-SAT for highly regular graphs.**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)<br>
+* **Semidefinite programming bounds on fractional cut-cover and MAX 2-SAT for highly regular graphs.**<br>
 Contributed talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
+
+* **Evolutionary Coding Agents.**<br>
+Invited talk. [Automated Discovery at Scale 2026](https://discoveryatscale.com/). San Francisco, USA.
 
 * [**MAXCUT, Association Schemes and Semidefinite Programs**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)<br>
 Invited talk. [CNMAC 2025](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2025/). Rio de Janeiro, Brasil.
@@ -43,7 +46,7 @@ Large Transaction Graphs**](https://henriqueassumpcao.github.io/assets/pdf/DELAT
 Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
-* **[Johnson Graphs and Coding Theory](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**<br>
+* **Johnson Graphs and Coding Theory**<br>
 *Algebraic Graph Theory Seminar*, UFMG, 2026.
 
 * **[Distance-regular graphs and Association schemes](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**<br>
