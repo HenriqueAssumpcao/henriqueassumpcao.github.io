@@ -2,9 +2,9 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: some of my github repos
-nav: false
-nav_order: 3
+description: github repos I'm involved with
+nav: true
+nav_order: 2
 ---
 
 {% if site.data.repositories.github_repos %}

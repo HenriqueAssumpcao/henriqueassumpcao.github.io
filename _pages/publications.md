@@ -72,10 +72,10 @@ Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). O
 
 ## Theses
 * **Semidefinite Optimization on Laplacians of Highly Regular Graphs**<br>
-*Masters Thesis*. Universidade Federal de Minas Gerais, 2026.<br>
+*Masters Thesis*. Federal University of Minas Gerais, 2026.<br>
 Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
 
 * [**Álgebras, grupos e grafos**](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)<br>
-*Undergraduate Thesis*. Universidade Federal de Minas Gerais, 2024.<br>
+*Undergraduate Thesis*. Federal University of Minas Gerais, 2024.<br>
 Advisor: Prof. Gabriel Coutinho.   
 

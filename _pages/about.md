@@ -17,11 +17,11 @@ bio: true
 ---
 
 Computer Scientist<br>
-[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in April 2026)<br>
+[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in May 2026)<br>
 
 I'm a Machine Learning Research Scientist at [Inter](https://inter.co/) and a Master's student in Computer Science at [UFMG](https://ufmg.br/), advised by [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/).
 
-My [research](https://henriqueassumpcao.github.io/research/) interests include machine learning and graph theory. At Inter, I work mainly on representation learning for large transaction networks, language models and recommender systems. At UFMG, I study optimization and graph theory.
+My [research](https://henriqueassumpcao.github.io/research/) covers natural language processing, representation learning, optimization and graph theory. At Inter, I work on language models for large transaction databases and on evolutionary coding agents. At UFMG, I study optimization and graph theory.
 
 Previously, I was fortunate to be supervised by Prof. Gabriel Coutinho as an undergraduate researcher in spectral and algebraic graph theory. I was also extremely fortunate to work under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/), focusing on graph neural networks and NLP.
 
