@@ -40,7 +40,7 @@ Invited talk. [AIDDA 2026](https://www.algorithmdiscovery.org/events/1). Remote.
 * **Semidefinite programming bounds on fractional cut-cover and MAX 2-SAT for highly regular graphs.**<br>
 Contributed talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
 
-* **Evolutionary Coding Agents.**<br>
+* **[Evolutionary Coding Agents](https://henriqueassumpcao.github.io/assets/pdf/ADS_2026___SLIDES.pdf)**<br>
 Invited talk. [Automated Discovery at Scale 2026](https://discoveryatscale.com/). San Francisco, USA.
 
 * [**MAXCUT, Association Schemes and Semidefinite Programs**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)<br>
