@@ -54,7 +54,7 @@ Large Transaction Graphs**](https://henriqueassumpcao.github.io/assets/pdf/DELAT
 Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
-* **Total Conformal Rigidity in Graphs**<br>
+* **[Total Conformal Rigidity in Graphs](https://henriqueassumpcao.github.io/assets/pdf/AGT_2026_CRGs.pdf)**<br>
 *Algebraic Graph Theory Seminar*, UFMG, 2026.
 
 * **[Distance-regular graphs and Association schemes](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**<br>
