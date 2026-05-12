@@ -7,14 +7,19 @@ nav: true
 nav_order: 1
 ---
 ## Papers
+5\. **Total Conformal Rigidity in Graphs**<br> 
+   *Henrique Assumpção, Gabriel Coutinho, Chris Godsil*.<br> 
+   *Submitted*, 2026.<br>
+   [arXiv](https://arxiv.org/abs/2605.08508)
+
 4\. **CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
    *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
-   *Submitted*, 2025.<br>
+   *Submitted*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2510.14150)
 
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
-   Under revision at *Mathematics of Operations Research*, 2025.<br>
+   Accepted to *Mathematics of Operations Research*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2505.10548)
 
 2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
@@ -29,6 +34,9 @@ nav_order: 1
 
 
 ## Conferences
+* **CodeEvolve: automated algorithmic discovery with LLMs.**<br>
+Invited talk. [AIDDA 2026](https://www.algorithmdiscovery.org/events/1). Remote.
+
 * **Semidefinite programming bounds on fractional cut-cover and MAX 2-SAT for highly regular graphs.**<br>
 Contributed talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
 
@@ -46,7 +54,7 @@ Large Transaction Graphs**](https://henriqueassumpcao.github.io/assets/pdf/DELAT
 Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
-* **Johnson Graphs and Coding Theory**<br>
+* **Total Conformal Rigidity in Graphs**<br>
 *Algebraic Graph Theory Seminar*, UFMG, 2026.
 
 * **[Distance-regular graphs and Association schemes](https://henriqueassumpcao.github.io/assets/pdf/AGT_NOTES.pdf)**<br>
@@ -63,8 +71,11 @@ Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). O
 
 
 ## Theses
+* **Semidefinite Optimization on Laplacians of Highly Regular Graphs**<br>
+*Masters Thesis*. Universidade Federal de Minas Gerais, 2026.<br>
+Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
 
 * [**Álgebras, grupos e grafos**](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)<br>
 *Undergraduate Thesis*. Universidade Federal de Minas Gerais, 2024.<br>
-Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/).   
+Advisor: Prof. Gabriel Coutinho.   
 
