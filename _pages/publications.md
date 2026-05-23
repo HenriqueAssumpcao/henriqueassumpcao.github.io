@@ -34,11 +34,11 @@ nav_order: 1
 
 
 ## Conferences
-* **CodeEvolve: automated algorithmic discovery with LLMs.**<br>
+* **CodeEvolve: automated algorithmic discovery with LLMs**<br>
 Invited talk. [AIDDA 2026](https://www.algorithmdiscovery.org/events/1). Remote.
 
-* **Semidefinite programming bounds on fractional cut-cover and MAX 2-SAT for highly regular graphs.**<br>
-Contributed talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
+* **[Gauge duality for parameters of highly regular graphs](https://henriqueassumpcao.github.io/assets/pdf/ILAS_2026___Talk.pdf)**<br>
+Invited Talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
 
 * **[Evolutionary Coding Agents](https://henriqueassumpcao.github.io/assets/pdf/ADS_2026___SLIDES.pdf)**<br>
 Invited talk. [Automated Discovery at Scale 2026](https://discoveryatscale.com/). San Francisco, USA.
