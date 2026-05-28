@@ -19,7 +19,7 @@ nav_order: 1
 
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
-   Accepted to *Mathematics of Operations Research*, 2026.<br>
+   *Mathematics of Operations Research*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2505.10548)
 
 2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
@@ -34,7 +34,7 @@ nav_order: 1
 
 
 ## Conferences
-* **CodeEvolve: automated algorithmic discovery with LLMs**<br>
+* **[CodeEvolve: automated algorithmic discovery with LLMs]()**<br>
 Invited talk. [AIDDA 2026](https://www.algorithmdiscovery.org/events/1). Remote.
 
 * **[Gauge duality for parameters of highly regular graphs](https://henriqueassumpcao.github.io/assets/pdf/ILAS_2026___Talk.pdf)**<br>
@@ -43,14 +43,14 @@ Invited Talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, 
 * **[Evolutionary Coding Agents](https://henriqueassumpcao.github.io/assets/pdf/ADS_2026___SLIDES.pdf)**<br>
 Invited talk. [Automated Discovery at Scale 2026](https://discoveryatscale.com/). San Francisco, USA.
 
-* [**MAXCUT, Association Schemes and Semidefinite Programs**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)<br>
+* **[MAXCUT, Association Schemes and Semidefinite Programs](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_2025_TALK.pdf)**<br>
 Invited talk. [CNMAC 2025](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2025/). Rio de Janeiro, Brasil.
 
-* [**Primal-dual inequalities for the approximate maximum-cut value of Graphs in
-Homogeneous Coherent Configurations**](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_POSTER.pdf)<br>Poster presentation. [CNMAC 2024](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2024/). Porto de Galinhas, Brasil.
+* **[Primal-dual inequalities for the approximate maximum-cut value of Graphs in
+Homogeneous Coherent Configurations](https://henriqueassumpcao.github.io/assets/pdf/CNMAC_POSTER.pdf)**<br>Poster presentation. [CNMAC 2024](https://www.cnmac.org.br/novo/index.php/CNMAC/ano/2024/). Porto de Galinhas, Brasil.
 
-* [**DELATOR: Money Laundering Detection via Multi-Task Learning on
-Large Transaction Graphs**](https://henriqueassumpcao.github.io/assets/pdf/DELATOR_SLIDES_IEEE.pdf)<br>
+* **[DELATOR: Money Laundering Detection via Multi-Task Learning on
+Large Transaction Graphs](https://henriqueassumpcao.github.io/assets/pdf/DELATOR_SLIDES_IEEE.pdf)**<br>
 Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
@@ -71,11 +71,11 @@ Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). O
 
 
 ## Theses
-* **Semidefinite Optimization on Laplacians of Highly Regular Graphs**<br>
+* **[Semidefinite Optimization on Laplacians of Highly Regular Graphs]()**<br>
 *Masters Thesis*. Federal University of Minas Gerais, 2026.<br>
 Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
 
-* [**Álgebras, grupos e grafos**](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)<br>
+* **[Álgebras, grupos e grafos](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)**<br>
 *Undergraduate Thesis*. Federal University of Minas Gerais, 2024.<br>
 Advisor: Prof. Gabriel Coutinho.   
 
