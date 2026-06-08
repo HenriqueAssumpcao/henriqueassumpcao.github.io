@@ -20,7 +20,7 @@ nav_order: 1
 3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
    *Mathematics of Operations Research*, 2026.<br>
-   [arXiv](https://arxiv.org/abs/2505.10548)
+   [arXiv](https://arxiv.org/abs/2505.10548) | [DOI](https://doi.org/10.1287/moor.2025.1044)
 
 2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
    *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
@@ -33,9 +33,12 @@ nav_order: 1
    [arXiv](https://arxiv.org/abs/2005.07473) | [DOI](https://doi.org/10.1016/j.future.2021.07.014)
 
 
-## Conferences
-* **[CodeEvolve: automated algorithmic discovery with LLMs]()**<br>
+## Talks and Presentations
+* **[CodeEvolve: Evolutionary Agents for Scientific Discovery](https://henriqueassumpcao.github.io/assets/pdf/AIDDA_2026___Slides.pdf)**<br>
 Invited talk. [AIDDA 2026](https://www.algorithmdiscovery.org/events/1). Remote.
+
+* **[CodeEvolve: an Open Source Evolutionary Coding Agent for Algorithmic Discovery and Optimization](https://henriqueassumpcao.github.io/assets/pdf/Inter_Science_Talks_2026___CodeEvolve.pdf)**<br>
+Invited talk. [Inter Science Talks 2026](https://luma.com/whwzj7sj). Belo Horizonte, Brazil.
 
 * **[Gauge duality for parameters of highly regular graphs](https://henriqueassumpcao.github.io/assets/pdf/ILAS_2026___Talk.pdf)**<br>
 Invited Talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
@@ -54,6 +57,9 @@ Large Transaction Graphs](https://henriqueassumpcao.github.io/assets/pdf/DELATOR
 Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
+* **[The Brauer-Fowler Theorem]()**<br>
+*Algebraic Graph Theory Seminar*, UFMG, 2026.
+
 * **[Total Conformal Rigidity in Graphs](https://henriqueassumpcao.github.io/assets/pdf/AGT_2026_CRGs.pdf)**<br>
 *Algebraic Graph Theory Seminar*, UFMG, 2026.
 
