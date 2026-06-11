@@ -7,29 +7,35 @@ nav: true
 nav_order: 1
 ---
 ## Papers
-5\. **Total Conformal Rigidity in Graphs**<br> 
-   *Henrique Assumpção, Gabriel Coutinho, Chris Godsil*.<br> 
-   *Submitted*, 2026.<br>
-   [arXiv](https://arxiv.org/abs/2605.08508)
-
-4\. **CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
+### Preprints
+**CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
    *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
    *Submitted*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2510.14150)
 
-3\. **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
+ **Total Conformal Rigidity in Graphs**<br> 
+   *Henrique Assumpção, Gabriel Coutinho, Chris Godsil*.<br> 
+   *Submitted*, 2026.<br>
+   [arXiv](https://arxiv.org/abs/2605.08508)
+
+
+### Conference Proceedings
+
+**DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
+   *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
+   *IEEE International Conference on Big Data* (IEEE Big Data 2022).<br>
+   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
+
+### Journal Articles
+
+**Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
    *Mathematics of Operations Research*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2505.10548) | [DOI](https://doi.org/10.1287/moor.2025.1044)
 
-2\. **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
-   *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
-   *2022 IEEE International Conference on Big Data (Big Data)*, Pages 709-714, 2022.<br>
-   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
-
-1\. **Predicting user emotional tone in mental disorder online communities**  
+**Predicting user emotional tone in mental disorder online communities**  
    *Bárbara Silveira, Henrique S. Silva, Fabricio Murai, Ana Paula C. da Silva*.<br>
-   *Future Generation Computer Systems*, Volume 125, Pages 641-651, 2021.<br>
+   *Future Generation Computer Systems*, 2021.<br>
    [arXiv](https://arxiv.org/abs/2005.07473) | [DOI](https://doi.org/10.1016/j.future.2021.07.014)
 
 
