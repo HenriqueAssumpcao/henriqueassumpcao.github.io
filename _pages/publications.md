@@ -63,7 +63,7 @@ Large Transaction Graphs](https://henriqueassumpcao.github.io/assets/pdf/DELATOR
 Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). Osaka, Japan.
 
 ## Seminars
-* **[The Brauer-Fowler Theorem]()**<br>
+* **[The Brauer-Fowler Theorem](https://henriqueassumpcao.github.io/assets/pdf/CFSG_AGT2026.pdf)**<br>
 *Algebraic Graph Theory Seminar*, UFMG, 2026.
 
 * **[Total Conformal Rigidity in Graphs](https://henriqueassumpcao.github.io/assets/pdf/AGT_2026_CRGs.pdf)**<br>
