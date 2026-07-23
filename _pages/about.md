@@ -17,13 +17,13 @@ bio: true
 ---
 
 Computer Scientist<br>
-[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in June 2026)<br>
+[C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in August 2026)<br>
 
-I'm a Machine Learning Research Scientist at [Inter](https://inter.co/) and a Master's student in Computer Science at [UFMG](https://ufmg.br/), advised by [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/).
+I am a Machine Learning Research Scientist at [Inter](https://inter.co/), currently working on foundation models, representation learning and evolutionary agent systems.
 
-My [research](https://henriqueassumpcao.github.io/research/) covers natural language processing, representation learning, optimization and graph theory. At Inter, I work on language models for large transaction databases and on evolutionary coding agents. At UFMG, I study optimization and graph theory.
+At [Inter Science](https://inter-science.github.io/site/), I lead the end-to-end lifecycle of large foundation models for financial applications: from data preprocessing, distributed pre-training, fine-tuning and evaluation. I'm also the creator and lead developer of [CodeEvolve](https://github.com/inter-co/science-codeevolve), an open-source framework that coordinates LLMs to continuously develop, optimize, and maintain critical software.
 
-Previously, I was fortunate to be supervised by Prof. Gabriel Coutinho as an undergraduate researcher in spectral and algebraic graph theory. I was also extremely fortunate to work under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/), focusing on graph neural networks and NLP.
+I hold an M.S. in Computer Science from the [Federal University of Minas Gerais (UFMG)](https://ufmg.br/), where I worked on optimization and graph theory, under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). I also hold a B.S. in Computer Science from UFMG, where I worked as an undergraduate researcher in machine learning under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/).
 
 Feel free to contact me via any of the emails listed below:<br>
 henriquesoares[at]dcc[dot]ufmg[dot]br<br>

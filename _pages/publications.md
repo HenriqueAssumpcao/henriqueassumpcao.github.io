@@ -7,19 +7,13 @@ nav: true
 nav_order: 1
 ---
 ## Papers
-### Preprints
-**CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
-   *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
-   *Submitted*, 2026.<br>
-   [arXiv](https://arxiv.org/abs/2510.14150)
-
- **Total Conformal Rigidity in Graphs**<br> 
-   *Henrique Assumpção, Gabriel Coutinho, Chris Godsil*.<br> 
-   *Submitted*, 2026.<br>
-   [arXiv](https://arxiv.org/abs/2605.08508)
-
 
 ### Conference Proceedings
+
+**CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
+   *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
+   *Empirical Methods in Natural Language Processing* (EMNLP 2026), 2026.<br>
+   [arXiv](https://arxiv.org/abs/2510.14150) | [DOI]()
 
 **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
    *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
@@ -27,6 +21,11 @@ nav_order: 1
    [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
 
 ### Journal Articles
+
+ **Total Conformal Rigidity in Graphs**<br> 
+   *Henrique Assumpção, Gabriel Coutinho, Chris Godsil*.<br> 
+   *Journal of Graph Theory*, 2026.<br>
+   [arXiv](https://arxiv.org/abs/2605.08508) | [DOI]()
 
 **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
@@ -87,7 +86,7 @@ Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). O
 *Masters Thesis*. Federal University of Minas Gerais, 2026.<br>
 Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
 
-* **[Álgebras, grupos e grafos](https://henriqueassumpcao.github.io/assets/pdf/undergrad_thesis.pdf)**<br>
+* **[Algebras, groups and graphs](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/)**<br>
 *Undergraduate Thesis*. Federal University of Minas Gerais, 2024.<br>
 Advisor: Prof. Gabriel Coutinho.   
 
