@@ -19,7 +19,7 @@ bio: true
 Computer Scientist<br>
 [C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in August 2026)<br>
 
-I am a Machine Learning Research Scientist at [Inter](https://inter.co/), currently working on foundation models, representation learning and evolutionary agent systems.
+I am a Machine Learning Research Scientist at [Inter](https://inter.co/). My [research](https://henriqueassumpcao.github.io/research/) interests include natural language processing, representation learning and agentic systems.
 
 At [Inter Science](https://inter-science.github.io/site/), I lead the end-to-end lifecycle of large foundation models for financial applications: from data preprocessing, distributed pre-training, fine-tuning and evaluation. I'm also the creator and lead developer of [CodeEvolve](https://github.com/inter-co/science-codeevolve), an open-source framework that coordinates LLMs to continuously develop, optimize, and maintain critical software.
 
