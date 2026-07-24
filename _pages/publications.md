@@ -8,29 +8,25 @@ nav_order: 1
 ---
 ## Papers
 
-### Conference Proceedings
-
 **CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
    *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
-   *Empirical Methods in Natural Language Processing* (EMNLP 2026), 2026.<br>
+   *Empirical Methods in Natural Language Processing* (EMNLP 2026).<br>
    [arXiv](https://arxiv.org/abs/2510.14150) | [DOI]()
-
-**DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
-   *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
-   *IEEE International Conference on Big Data* (IEEE Big Data 2022).<br>
-   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
-
-### Journal Articles
 
  **Total Conformal Rigidity in Graphs**<br> 
    *Henrique Assumpção, Gabriel Coutinho, Chris Godsil*.<br> 
-   *Journal of Graph Theory*, 2026.<br>
+   *Under revision at Journal of Graph Theory*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2605.08508) | [DOI]()
 
 **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
    *Henrique Assumpção and Gabriel Coutinho*.<br> 
    *Mathematics of Operations Research*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2505.10548) | [DOI](https://doi.org/10.1287/moor.2025.1044)
+
+**DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
+   *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
+   *IEEE International Conference on Big Data* (IEEE Big Data 2022).<br>
+   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
 
 **Predicting user emotional tone in mental disorder online communities**  
    *Bárbara Silveira, Henrique S. Silva, Fabricio Murai, Ana Paula C. da Silva*.<br>
