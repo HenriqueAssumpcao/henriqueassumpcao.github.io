@@ -37,7 +37,7 @@ nav_order: 1
    [arXiv](https://arxiv.org/abs/2005.07473) | [DOI](https://doi.org/10.1016/j.future.2021.07.014)
 
 ## Theses
-* **[Semidefinite Optimization on Laplacians of Highly Regular Graphs](https://henriqueassumpcao.github.io/assets/pdf/ms_dissertation.pdf)**<br>
+* **[Semidefinite Optimization on Laplacians of Highly Regular Graphs](https://henriqueassumpcao.github.io/assets/pdf/masters_thesis.pdf)**<br>
 *Masters Thesis*. Federal University of Minas Gerais, 2026.<br>
 Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
 
