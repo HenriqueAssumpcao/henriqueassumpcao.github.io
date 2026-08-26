@@ -7,31 +7,43 @@ nav: true
 nav_order: 1
 ---
 ## Papers
+### Conference Proceedings
 
 **CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
-   *Henrique Assumpção, Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
-   *Empirical Methods in Natural Language Processing* (EMNLP 2026).<br>
-   [arXiv](https://arxiv.org/abs/2510.14150) | [DOI]()
+   **Henrique Assumpção**, *Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
+   *Findings of the Association for Computational Linguistics: EMNLP 2026*.<br>
+   [arXiv](https://arxiv.org/abs/2510.14150)
+
+**DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
+   **Henrique Assumpção**, *Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
+   *2022 IEEE International Conference on Big Data (IEEE Big Data)*.<br>
+   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
+
+### Journal Articles
 
  **Total Conformal Rigidity in Graphs**<br> 
-   *Henrique Assumpção, Gabriel Coutinho, Chris Godsil*.<br> 
-   *Under revision at Journal of Graph Theory*, 2026.<br>
-   [arXiv](https://arxiv.org/abs/2605.08508) | [DOI]()
+   **Henrique Assumpção**, *Gabriel Coutinho, Chris Godsil*.<br> 
+   Under revision at *Journal of Graph Theory*, 2026.<br>
+   [arXiv](https://arxiv.org/abs/2605.08508)
 
 **Semidefinite programming bounds on fractional cut-cover and maximum 2-SAT for highly regular graphs**<br> 
-   *Henrique Assumpção and Gabriel Coutinho*.<br> 
+   **Henrique Assumpção** *and Gabriel Coutinho*.<br> 
    *Mathematics of Operations Research*, 2026.<br>
    [arXiv](https://arxiv.org/abs/2505.10548) | [DOI](https://doi.org/10.1287/moor.2025.1044)
 
-**DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
-   *Henrique S. Assumpção, Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
-   *IEEE International Conference on Big Data* (IEEE Big Data 2022).<br>
-   [arXiv](https://arxiv.org/abs/2205.10293) | [DOI](https://doi.org/10.1109/BigData55660.2022.10021010) 
-
 **Predicting user emotional tone in mental disorder online communities**  
-   *Bárbara Silveira, Henrique S. Silva, Fabricio Murai, Ana Paula C. da Silva*.<br>
+   *Bárbara Silveira,* **Henrique Assumpção**, *Fabricio Murai, Ana Paula C. da Silva*.<br>
    *Future Generation Computer Systems*, 2021.<br>
    [arXiv](https://arxiv.org/abs/2005.07473) | [DOI](https://doi.org/10.1016/j.future.2021.07.014)
+
+## Theses
+* **[Semidefinite Optimization on Laplacians of Highly Regular Graphs](https://henriqueassumpcao.github.io/assets/pdf/ms_dissertation.pdf)**<br>
+*Masters Thesis*. Federal University of Minas Gerais, 2026.<br>
+Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
+
+* **[Algebras, groups and graphs](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/)**<br>
+*Undergraduate Thesis*. Federal University of Minas Gerais, 2024.<br>
+Advisor: Prof. Gabriel Coutinho. 
 
 
 ## Talks and Presentations
@@ -74,15 +86,5 @@ Paper presentation. [IEEE BigData 2022](https://bigdataieee.org/BigData2022/). O
 <br>*Mathematical aspects of Deep Learning Seminar*, UFMG, 2023.
 
 * **[Quantum Random Number Generation](https://henriqueassumpcao.github.io/assets/pdf/qrng_slides.pdf)**
-<br>*Quantum Computing Seminar*, UFMG, 2023.
-
-
-## Theses
-* **[Semidefinite Optimization on Laplacians of Highly Regular Graphs]()**<br>
-*Masters Thesis*. Federal University of Minas Gerais, 2026.<br>
-Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
-
-* **[Algebras, groups and graphs](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/)**<br>
-*Undergraduate Thesis*. Federal University of Minas Gerais, 2024.<br>
-Advisor: Prof. Gabriel Coutinho.   
+<br>*Quantum Computing Seminar*, UFMG, 2023.  
 
