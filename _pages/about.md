@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 bio: true
 ---
 
-Computer Scientist<br>
+Machine Learning Researcher<br>
 [C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in August 2026)<br>
 
 I am a Machine Learning Research Scientist at [Inter](https://inter.co/). My [research](https://henriqueassumpcao.github.io/research/) interests include natural language processing, representation learning and agentic systems.
