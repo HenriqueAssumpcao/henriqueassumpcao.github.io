@@ -47,6 +47,9 @@ Advisor: Prof. Gabriel Coutinho.
 
 
 ## Talks and Presentations
+* **[CodeEvolve: an open source evolutionary coding agent for algorithmic discovery and optimization](https://henriqueassumpcao.github.io/assets/pdf/EMNLP2026_Poster.pdf)**<br>
+Poster presentation. [EMNLP 2026](https://2026.emnlp.org/). Budapest, Hungary.
+
 * **[CodeEvolve: Evolutionary Agents for Scientific Discovery](https://henriqueassumpcao.github.io/assets/pdf/AIDDA_2026___Slides.pdf)**<br>
 Invited talk. [AIDDA 2026](https://www.algorithmdiscovery.org/events/1). Remote.
 
@@ -54,7 +57,7 @@ Invited talk. [AIDDA 2026](https://www.algorithmdiscovery.org/events/1). Remote.
 Invited talk. [Inter Science Talks 2026](https://luma.com/whwzj7sj). Belo Horizonte, Brazil.
 
 * **[Gauge duality for parameters of highly regular graphs](https://henriqueassumpcao.github.io/assets/pdf/ILAS_2026___Talk.pdf)**<br>
-Invited Talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
+Invited talk. [ILAS 2026](https://ilas2026.math.vt.edu/index.html). Blacksburg, USA.
 
 * **[Evolutionary Coding Agents](https://henriqueassumpcao.github.io/assets/pdf/ADS_2026___SLIDES.pdf)**<br>
 Invited talk. [Automated Discovery at Scale 2026](https://discoveryatscale.com/). San Francisco, USA.
