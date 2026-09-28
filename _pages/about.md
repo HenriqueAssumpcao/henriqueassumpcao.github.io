@@ -19,7 +19,7 @@ bio: true
 Machine Learning Researcher<br>
 [C.V.](../assets/pdf/HenriqueAssumpcao_CV.pdf) (last updated in August 2026)<br>
 
-I am a Machine Learning Research Scientist at [Inter Bank](https://science.inter.co/). My [research](https://henriqueassumpcao.github.io/research/) interests include representation learning, language models, NLP, and AI agents for self-improvement and scientific discovery. I'm also a committee member at the [AIDDA Institute](https://www.algorithmdiscovery.org/).
+I am a Machine Learning Research Scientist at [Inter Bank](https://science.inter.co/). My [research](https://henriqueassumpcao.github.io/research/) interests include representation learning, language models, NLP, and AI agents for self-improvement and scientific discovery. I'm also a committee member at the [AIDDA Institute](https://algorithmdiscovery.org/).
 
 At Inter, I lead the end-to-end lifecycle of large foundation models for financial applications: from data preprocessing and distributed pre-training to fine-tuning and evaluation. I'm also the creator and lead developer of [CodeEvolve](https://github.com/inter-co/science-codeevolve), an open-source framework that coordinates LLMs to continuously develop, optimize, and maintain critical software.
 
