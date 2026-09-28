@@ -23,7 +23,7 @@ I am a Machine Learning Research Scientist at [Inter](https://inter.co/). My [re
 
 At [Inter Science](https://inter-science.github.io/site/), I lead the end-to-end lifecycle of large foundation models for financial applications: from data preprocessing and distributed pre-training to fine-tuning and evaluation. I'm also the creator and lead developer of [CodeEvolve](https://github.com/inter-co/science-codeevolve), an open-source framework that coordinates LLMs to continuously develop, optimize, and maintain critical software.
 
-I hold an M.S. in Computer Science from the [Federal University of Minas Gerais (UFMG)](https://ufmg.br/), where I worked on optimization and graph theory, under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). I also hold a B.S. in Computer Science from UFMG, where I worked as an undergraduate researcher in machine learning under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/).
+I hold an M.S. in Computer Science from the [Universidade Federal de Minas Gerais (UFMG)](https://ufmg.br/), where I worked on optimization and graph theory, under the supervision of [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). I also hold a B.S. in Computer Science from UFMG with a minor in Mathematics, where I worked as an undergraduate researcher in machine learning under the supervision of [Prof. Fabricio Murai](https://users.wpi.edu/~fmurai/).
 
 Feel free to contact me via any of the emails listed below:<br>
 henriquesoares[at]dcc[dot]ufmg[dot]br<br>

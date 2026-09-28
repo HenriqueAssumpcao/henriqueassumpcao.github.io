@@ -38,11 +38,11 @@ nav_order: 1
 
 ## Theses
 * **[Semidefinite Optimization on Laplacians of Highly Regular Graphs](https://hdl.handle.net/1843/4961)**<br>
-*Masters Thesis*. Federal University of Minas Gerais, 2026.<br>
+*Masters Thesis*. Universidade Federal de Minas Gerais, 2026.<br>
 Advisor: [Prof. Gabriel Coutinho](https://homepages.dcc.ufmg.br/~gabriel/). 
 
 * **[Algebras, groups and graphs](https://monografias.dcc.ufmg.br/monografia/algebras-grupos-e-grafos/)**<br>
-*Undergraduate Thesis*. Federal University of Minas Gerais, 2024.<br>
+*Undergraduate Thesis*. Universidade Federal de Minas Gerais, 2024.<br>
 Advisor: Prof. Gabriel Coutinho. 
 
 
