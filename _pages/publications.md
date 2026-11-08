@@ -12,7 +12,7 @@ nav_order: 1
 **CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization**<br> 
    **Henrique Assumpção**, *Diego Ferreira, Leandro Campos, Fabricio Murai*.<br> 
    *Findings of the Association for Computational Linguistics (EMNLP 2026)*.<br>
-   [arXiv](https://arxiv.org/abs/2510.14150)
+   [arXiv](https://arxiv.org/abs/2510.14150) | [DOI](https://doi.org/10.18653/2026.findings-emnlp.1345)
 
 **DELATOR: Money Laundering Detection via Multi-Task Learning on Large Transaction Graphs**  
    **Henrique Assumpção**, *Fabrício Souza, Leandro Lacerda Campos, Vinícius T. de Castro Pires, Paulo M. Laurentys de Almeida, Fabricio Murai*.<br>
